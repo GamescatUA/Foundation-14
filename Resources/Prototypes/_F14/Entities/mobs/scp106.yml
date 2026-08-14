@@ -63,7 +63,7 @@
   description: "Allows SCP-106 to hide under the floor and wall textures."
   components:
   - type: Action
-    icon: { sprite: Textures/_F14/Interface/VerbIcons/arrow_up.png }
+    icon: _F14/Interface/VerbIcons/arrow_up.png
   - type: InstantAction
     event: !type:SCP106ToggleSubmersionEvent
 
@@ -73,7 +73,7 @@
   description: "Moves you to the floor above. Only possible while submerged."
   components:
   - type: Action
-    icon: { sprite: Textures/_F14/Interface/VerbIcons/arrow_down.png }
+    icon: _F14/Interface/VerbIcons/arrow_down.png
   - type: InstantAction
     event: !type:SCP106MoveUpEvent
 
@@ -83,7 +83,7 @@
   description: "Moves you to the floor below. Only possible while submerged."
   components:
   - type: Action
-    icon: { sprite: Textures/_F14/Interface/VerbIcons/arrow_down.png }
+    icon: _F14/Interface/VerbIcons/arrow_down.png
   - type: InstantAction
     event: !type:SCP106MoveDownEvent
 
