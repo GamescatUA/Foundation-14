@@ -4,7 +4,7 @@
   group: Narcotics
   desc: The best ████ in the world. Cures literally everything, man.
   physicalDesc: a dank, pungent smoke
-  flavor: incredibly dank
+  flavor: smokey
   color: "#42f54e" 
   metabolisms:
     Medicine:

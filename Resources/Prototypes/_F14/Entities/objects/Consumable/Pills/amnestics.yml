@@ -68,7 +68,7 @@
   group: Medicine
   desc: An extreme anomalous memory wiping agent. Induces complete retrograde amnesia and severe brain damage.
   physicalDesc: a void-black liquid
-  flavor: ash
+  flavor: smokey
   color: "#000000"
   metabolisms:
     Poison:
