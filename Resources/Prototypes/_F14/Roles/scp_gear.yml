@@ -28,7 +28,10 @@
     gloves: ClothingHandsGlovesCaptain
     ears: ClothingHeadsetCommand
     back: ClothingBackpackCaptain
-  pocket1: FlashlightSeclite
+  storage:
+    pocket1:
+    - FlashlightSeclite
+
 
 - type: startingGear
   id: SCPSiteManagerGear
@@ -39,7 +42,10 @@
     shoes: ClothingShoesBootsLaceup
     ears: ClothingHeadsetCommand
     back: ClothingBackpack
-  pocket1: FlashlightSeclite
+  storage:
+    pocket1:
+    - FlashlightSeclite
+
 
 - type: startingGear
   id: SCPCommunicationsOfficerGear
@@ -49,12 +55,13 @@
     shoes: ClothingShoesBootsLaceup
     ears: ClothingHeadsetCommand
     back: ClothingBackpack
-  pocket1: FlashlightSeclite
+  storage:
+    pocket1:
+    - FlashlightSeclite
+
 
 - type: startingGear
   id: SCPISDDetectiveGear
-  implants:
-  - MindShieldImplant
   equipment:
     id: IDCardSCPSecurity3
     jumpsuit: ClothingUniformJumpsuitISD
@@ -65,8 +72,12 @@
     gloves: ClothingHandsGlovesForensic
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
-  pocket1: FlashlightSeclite
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - FlashlightSeclite
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPEthicsGear
@@ -76,7 +87,10 @@
     shoes: ClothingShoesBootsLaceup
     ears: ClothingHeadsetCommand
     back: ClothingBackpack
-  pocket1: FlashlightSeclite
+  storage:
+    pocket1:
+    - FlashlightSeclite
+
 
 - type: startingGear
   id: SCPGOCGear
@@ -89,7 +103,10 @@
     gloves: ClothingHandsGlovesLeather
     ears: ClothingHeadsetCommand
     back: ClothingBackpack
-  pocket1: FlashlightSeclite
+  storage:
+    pocket1:
+    - FlashlightSeclite
+
 
 - type: startingGear
   id: SCPCommsTechGear
@@ -99,8 +116,12 @@
     shoes: ClothingShoesBootsWork
     ears: ClothingHeadsetEngineering
     back: ClothingBackpackEngineering
-  pocket1: Multitool
-  pocket2: Screwdriver
+  storage:
+    pocket1:
+    - Multitool
+    pocket2:
+    - Screwdriver
+
 
 # ==========================================
 # ENGINEERING
@@ -115,8 +136,12 @@
     ears: ClothingHeadsetCE
     back: ClothingBackpackEngineering
     belt: ClothingBeltChiefEngineer
-  pocket1: FlashlightSeclite
-  pocket2: Wrench
+  storage:
+    pocket1:
+    - FlashlightSeclite
+    pocket2:
+    - Wrench
+
 
 - type: startingGear
   id: SCPAsstEngDirectorGear
@@ -127,8 +152,12 @@
     ears: ClothingHeadsetEngineering
     back: ClothingBackpackEngineering
     belt: ClothingBeltUtility
-  pocket1: FlashlightSeclite
-  pocket2: Wrench
+  storage:
+    pocket1:
+    - FlashlightSeclite
+    pocket2:
+    - Wrench
+
 
 - type: startingGear
   id: SCPContainmentEngGear
@@ -139,8 +168,12 @@
     ears: ClothingHeadsetEngineering
     back: ClothingBackpackEngineering
     belt: ClothingBeltUtility
-  pocket1: Wrench
-  pocket2: Screwdriver
+  storage:
+    pocket1:
+    - Wrench
+    pocket2:
+    - Screwdriver
+
 
 - type: startingGear
   id: SCPSeniorEngGear
@@ -151,8 +184,12 @@
     ears: ClothingHeadsetEngineering
     back: ClothingBackpackEngineering
     belt: ClothingBeltUtility
-  pocket1: Wrench
-  pocket2: Screwdriver
+  storage:
+    pocket1:
+    - Wrench
+    pocket2:
+    - Screwdriver
+
 
 - type: startingGear
   id: SCPEngGear
@@ -163,8 +200,12 @@
     ears: ClothingHeadsetEngineering
     back: ClothingBackpackEngineering
     belt: ClothingBeltUtility
-  pocket1: Wrench
-  pocket2: Screwdriver
+  storage:
+    pocket1:
+    - Wrench
+    pocket2:
+    - Screwdriver
+
 
 - type: startingGear
   id: SCPJuniorEngGear
@@ -174,8 +215,12 @@
     shoes: ClothingShoesBootsWork
     ears: ClothingHeadsetEngineering
     back: ClothingBackpackEngineering
-  pocket1: Wrench
-  pocket2: Screwdriver
+  storage:
+    pocket1:
+    - Wrench
+    pocket2:
+    - Screwdriver
+
 
 # ==========================================
 # MEDICAL
@@ -192,8 +237,12 @@
     ears: ClothingHeadsetCMO
     back: ClothingBackpackMedical
     belt: ClothingBeltMedical
-  pocket1: Defibrillator
-  pocket2: MedkitAdvanced
+  storage:
+    pocket1:
+    - Defibrillator
+    pocket2:
+    - MedkitAdvanced
+
 
 - type: startingGear
   id: SCPAsstMedDirectorGear
@@ -206,8 +255,12 @@
     ears: ClothingHeadsetMedical
     back: ClothingBackpackMedical
     belt: ClothingBeltMedical
-  pocket1: Defibrillator
-  pocket2: MedkitAdvanced
+  storage:
+    pocket1:
+    - Defibrillator
+    pocket2:
+    - MedkitAdvanced
+
 
 - type: startingGear
   id: SCPSurgeonGear
@@ -220,8 +273,12 @@
     ears: ClothingHeadsetMedical
     back: ClothingBackpackMedical
     belt: ClothingBeltMedical
-  pocket1: MedkitAdvanced
-  pocket2: Defibrillator
+  storage:
+    pocket1:
+    - MedkitAdvanced
+    pocket2:
+    - Defibrillator
+
 
 - type: startingGear
   id: SCPChemistGear
@@ -233,8 +290,12 @@
     ears: ClothingHeadsetMedical
     back: ClothingBackpackChemistry
     belt: ClothingBeltMedical
-  pocket1: MedkitBrute
-  pocket2: MedkitBurn
+  storage:
+    pocket1:
+    - MedkitBrute
+    pocket2:
+    - MedkitBurn
+
 
 - type: startingGear
   id: SCPPsychiatristGear
@@ -245,7 +306,10 @@
     gloves: ClothingHandsGlovesLatex
     ears: ClothingHeadsetMedical
     back: ClothingBackpackMedical
-  pocket1: MedkitBrute
+  storage:
+    pocket1:
+    - MedkitBrute
+
 
 - type: startingGear
   id: SCPMedDoctorGear
@@ -257,8 +321,12 @@
     ears: ClothingHeadsetMedical
     back: ClothingBackpackMedical
     belt: ClothingBeltMedical
-  pocket1: Brutepack
-  pocket2: MedkitBrute
+  storage:
+    pocket1:
+    - Brutepack
+    pocket2:
+    - MedkitBrute
+
 
 - type: startingGear
   id: SCPEMTGear
@@ -270,8 +338,12 @@
     ears: ClothingHeadsetMedical
     back: ClothingBackpackMedical
     belt: ClothingBeltMedicalEMT
-  pocket1: Brutepack
-  pocket2: EmergencyMedipen
+  storage:
+    pocket1:
+    - Brutepack
+    pocket2:
+    - EmergencyMedipen
+
 
 - type: startingGear
   id: SCPMedInternGear
@@ -282,7 +354,10 @@
     gloves: ClothingHandsGlovesLatex
     ears: ClothingHeadsetMedical
     back: ClothingBackpackMedical
-  pocket1: Brutepack
+  storage:
+    pocket1:
+    - Brutepack
+
 
 # ==========================================
 # LOGISTICS
@@ -296,7 +371,10 @@
     shoes: ClothingShoesBootsLaceup
     ears: ClothingHeadsetCommand
     back: ClothingBackpack
-  pocket1: FlashlightSeclite
+  storage:
+    pocket1:
+    - FlashlightSeclite
+
 
 - type: startingGear
   id: SCPLogSpecialistGear
@@ -306,7 +384,10 @@
     shoes: ClothingShoesBootsWork
     ears: ClothingHeadsetGrey
     back: ClothingBackpackCargo
-  pocket1: FlashlightSeclite
+  storage:
+    pocket1:
+    - FlashlightSeclite
+
 
 - type: startingGear
   id: SCPOfficeWorkerGear
@@ -370,7 +451,10 @@
     gloves: ClothingHandsGlovesLatex
     ears: ClothingHeadsetRD
     back: ClothingBackpackScience
-  pocket1: FlashlightSeclite
+  storage:
+    pocket1:
+    - FlashlightSeclite
+
 
 - type: startingGear
   id: SCPSeniorResearcherGear
@@ -382,7 +466,10 @@
     gloves: ClothingHandsGlovesLatex
     ears: ClothingHeadsetScience
     back: ClothingBackpackScience
-  pocket1: FlashlightSeclite
+  storage:
+    pocket1:
+    - FlashlightSeclite
+
 
 - type: startingGear
   id: SCPSeniorRoboticsGear
@@ -395,8 +482,12 @@
     ears: ClothingHeadsetRobotics
     back: ClothingBackpackEngineering
     belt: ClothingBeltUtility
-  pocket1: Multitool
-  pocket2: Screwdriver
+  storage:
+    pocket1:
+    - Multitool
+    pocket2:
+    - Screwdriver
+
 
 - type: startingGear
   id: SCPResearcherGear
@@ -408,7 +499,10 @@
     gloves: ClothingHandsGlovesLatex
     ears: ClothingHeadsetScience
     back: ClothingBackpackScience
-  pocket1: FlashlightSeclite
+  storage:
+    pocket1:
+    - FlashlightSeclite
+
 
 - type: startingGear
   id: SCPRoboticsGear
@@ -420,8 +514,12 @@
     ears: ClothingHeadsetRobotics
     back: ClothingBackpackEngineering
     belt: ClothingBeltUtility
-  pocket1: Multitool
-  pocket2: Screwdriver
+  storage:
+    pocket1:
+    - Multitool
+    pocket2:
+    - Screwdriver
+
 
 - type: startingGear
   id: SCPResearcherAssociateGear
@@ -442,7 +540,10 @@
     shoes: ClothingShoesBootsWork
     ears: ClothingHeadsetRobotics
     back: ClothingBackpackEngineering
-  pocket1: Multitool
+  storage:
+    pocket1:
+    - Multitool
+
 
 # ==========================================
 # SECURITY
@@ -460,8 +561,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPLCZJuniorLtGear
@@ -475,8 +580,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPHCZSeniorLtGear
@@ -490,8 +599,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPEZSupervisorGear
@@ -505,8 +618,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPRAISAGear
@@ -517,8 +634,12 @@
     gloves: ClothingHandsGlovesLeather
     ears: ClothingHeadsetSecurity
     back: ClothingBackpack
-  pocket1: FlashlightSeclite
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - FlashlightSeclite
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPLCZSergeantGear
@@ -532,8 +653,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPHCZSergeantGear
@@ -547,8 +672,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPEZSeniorAgentGear
@@ -562,8 +691,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: Stunbaton
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - Stunbaton
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPLCZGuardGear
@@ -577,8 +710,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: Stunbaton
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - Stunbaton
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPHCZGuardGear
@@ -592,8 +729,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: Stunbaton
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - Stunbaton
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPEZAgentGear
@@ -606,8 +747,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: Stunbaton
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - Stunbaton
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPLCZCadetGear
@@ -620,8 +765,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: Flash
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - Flash
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPHCZPrivateGear
@@ -634,8 +783,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: Flash
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - Flash
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPEZProbGear
@@ -648,8 +801,12 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltSecurity
-  pocket1: Flash
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - Flash
+    pocket2:
+    - Handcuffs
+
 
 # ==========================================
 # SPECIAL
@@ -682,8 +839,6 @@
 
 - type: startingGear
   id: SCPO5Gear
-  implants:
-  - MindShieldImplant
   equipment:
     id: IDCardSCPO5
     jumpsuit: Servicejumpsuit1
@@ -692,8 +847,12 @@
     gloves: ClothingHandsGlovesLeather
     ears: ClothingHeadsetCommand
     back: ClothingBackpack
-  pocket1: FlashlightSeclite
-  pocket2: AmnesticClassA
+  storage:
+    pocket1:
+    - FlashlightSeclite
+    pocket2:
+    - AmnesticClassA
+
 
 # ==========================================
 # MOBILE TASK FORCES
@@ -701,8 +860,6 @@
 
 - type: startingGear
   id: SCPMTFE11CommanderGear
-  implants:
-  - MindShieldImplant
   equipment:
     id: IDCardSCPSecurity5
     jumpsuit: ClothingUniformJumpsuitMTFEpsilon11
@@ -713,13 +870,15 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltMilitaryWebbing
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPMTFE11LtGear
-  implants:
-  - MindShieldImplant
   equipment:
     id: IDCardSCPSecurity4
     jumpsuit: ClothingUniformJumpsuitMTFEpsilon11
@@ -730,13 +889,15 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltMilitaryWebbing
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPMTFE11SgtGear
-  implants:
-  - MindShieldImplant
   equipment:
     id: IDCardSCPSecurity4
     jumpsuit: ClothingUniformJumpsuitMTFEpsilon11
@@ -747,13 +908,15 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltMilitaryWebbing
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPMTFE11AgentGear
-  implants:
-  - MindShieldImplant
   equipment:
     id: IDCardSCPSecurity3
     jumpsuit: ClothingUniformJumpsuitMTFEpsilon11
@@ -764,13 +927,15 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltMilitaryWebbing
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPMTFNU7CommanderGear
-  implants:
-  - MindShieldImplant
   equipment:
     id: IDCardSCPSecurity5
     jumpsuit: ClothingUniformJumpsuitMTFNu7
@@ -781,13 +946,15 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltMilitaryWebbing
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPMTFNU7LtGear
-  implants:
-  - MindShieldImplant
   equipment:
     id: IDCardSCPSecurity4
     jumpsuit: ClothingUniformJumpsuitMTFNu7
@@ -798,13 +965,15 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltMilitaryWebbing
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
+
 
 - type: startingGear
   id: SCPMTFNU7AgentGear
-  implants:
-  - MindShieldImplant
   equipment:
     id: IDCardSCPSecurity3
     jumpsuit: ClothingUniformJumpsuitMTFNu7
@@ -815,5 +984,8 @@
     ears: ClothingHeadsetSecurity
     back: ClothingBackpackSecurity
     belt: ClothingBeltMilitaryWebbing
-  pocket1: WeaponDisabler
-  pocket2: Handcuffs
+  storage:
+    pocket1:
+    - WeaponDisabler
+    pocket2:
+    - Handcuffs
