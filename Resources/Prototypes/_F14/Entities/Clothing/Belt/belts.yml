@@ -28,7 +28,6 @@
         - MilitaryPowerCell # Goobstation
         - EnergyMagAmmo # Goobstation
         - HandGrenade
-        - Flashbang
       components:
         - Stunbaton
         - FlashOnTrigger

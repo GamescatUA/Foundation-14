@@ -66,5 +66,5 @@
       task: SimpleHostileCompound
   - type: NpcFactionMember
     factions:
-    - Neutral
+    - SimpleNeutral
   - type: NPCRetaliation

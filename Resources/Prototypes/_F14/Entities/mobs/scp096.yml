@@ -24,9 +24,9 @@
     animation: WeaponArcSlash
     wideAnimation: WeaponArcSlash
     soundHit:
-      path: /Audio/Effects/flesh_break.ogg
+      path: /Audio/Effects/bite.ogg
     soundNoDamage:
-      path: /Audio/Weapons/Melee/swing.ogg
+      path: /Audio/Weapons/punchmiss.ogg
     damage:
       types:
         Slash: 70
@@ -42,7 +42,7 @@
   - type: NPCRetaliation
   - type: NpcFactionMember
     factions:
-    - Neutral
+    - SimpleNeutral
   - type: Barotrauma
   - type: Respirator
     damage:

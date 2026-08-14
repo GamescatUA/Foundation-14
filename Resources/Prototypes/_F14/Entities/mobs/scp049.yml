@@ -7,7 +7,7 @@
   - type: SCP049
   - type: NpcFactionMember
     factions:
-    - SCP
+    - SimpleNeutral
   - type: Hands 
     hands:
       left:
