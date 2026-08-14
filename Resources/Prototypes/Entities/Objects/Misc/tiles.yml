@@ -2016,48 +2016,48 @@
 
 - type: stack
   id: floorgridgrey
-  name: grid gray floor tile
+  name: tile-name-grid-gray-floor
   spawn: floorgridgrey
 
 - type: stack
   id: FloorWhiteCorner
-  name: white corner tile
+  name: tile-name-white-corner
   spawn: FloorWhiteCorner
 
 - type: stack
   id: steel_corner
-  name: steel floor corner tile
+  name: tile-name-steel-corner
   spawn: steel_corner
 
 - type: stack
   id: FloorMonotiledark
-  name: monlith white floor tile
+  name: tile-name-monolith-white-floor
   spawn: FloorMonotiledark
 
 - type: stack
   id: Floor-dark-small
-  name: dark small floor tile
+  name: tile-name-dark-small-floor
   spawn: Floor-dark-small
 
 - type: stack
   id: Floor-dark-grid
-  name: dark grid floor tile
+  name: tile-name-dark-grid-floor
   spawn: Floor-dark-grid
 
 - type: stack
   id: Floor-dark-corner
-  name: dark floor corner tile
+  name: tile-name-dark-corner
   spawn: Floor-dark-corner
 
 - type: stack
   id: FloorDecayed
-  name: decayed floor tile
+  name: tile-name-decayed-floor
   spawn: FloorDecayed
 
 - type: entity
   parent: FloorTileItemBase
   id: floorgridgrey
-  name: grid gray floor tile
+  name: tile-name-grid-gray-floor
   description: A floor tile.
   components:
   - type: Sprite
@@ -2071,7 +2071,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorWhiteCorner
-  name: white corner tile
+  name: tile-name-white-corner
   description: A white corner floor tile.
   components:
   - type: Sprite
@@ -2085,7 +2085,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: steel_corner
-  name: steel floor corner tile
+  name: tile-name-steel-corner
   description: A steel corner floor tile.
   components:
   - type: Sprite
@@ -2099,7 +2099,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorMonotiledark
-  name: monlith white floor tile
+  name: tile-name-monolith-white-floor
   description: A floor tile.
   components:
   - type: Sprite
@@ -2113,7 +2113,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: Floor-dark-small
-  name: dark small floor tile
+  name: tile-name-dark-small-floor
   description: A floor tile.
   components:
   - type: Sprite
@@ -2127,7 +2127,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: Floor-dark-grid
-  name: dark grid floor tile
+  name: tile-name-dark-grid-floor
   description: A floor tile.
   components:
   - type: Sprite
@@ -2141,7 +2141,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: Floor-dark-corner
-  name: dark floor corner tile
+  name: tile-name-dark-corner
   description: A floor tile.
   components:
   - type: Sprite
@@ -2155,7 +2155,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorDecayed
-  name: decayed floor tile
+  name: tile-name-decayed-floor
   description: A decayed floor tile.
   components:
   - type: Sprite

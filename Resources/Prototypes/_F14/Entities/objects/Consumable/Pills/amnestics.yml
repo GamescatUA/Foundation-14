@@ -3,10 +3,10 @@
 # ==================================
 - type: reagent
   id: AmnesticClassA
-  name: Class-A Amnestic
+  name: f14-reagent-amnestic-a-name
   group: Medicine
-  desc: A fast-acting memory wiping agent. Erases the last hour.
-  physicalDesc: a clear liquid
+  desc: f14-reagent-amnestic-a-desc
+  physicalDesc: f14-reagent-amnestic-a-physical-desc
   flavor: chalky
   color: "#FFFFFF"
   metabolisms:
@@ -22,10 +22,10 @@
 
 - type: reagent
   id: AmnesticClassB
-  name: Class-B Amnestic
+  name: f14-reagent-amnestic-b-name
   group: Medicine
-  desc: A potent memory wiping agent. Erases the last 6 hours.
-  physicalDesc: a glowing green liquid
+  desc: f14-reagent-amnestic-b-desc
+  physicalDesc: f14-reagent-amnestic-b-physical-desc
   flavor: bitter
   color: "#42f56f"
   metabolisms:
@@ -41,10 +41,10 @@
 
 - type: reagent
   id: AmnesticClassC
-  name: Class-C Amnestic
+  name: f14-reagent-amnestic-c-name
   group: Medicine
-  desc: A heavy-duty memory wiping agent. Erases the last 24 hours and induces sleep.
-  physicalDesc: a thick red liquid
+  desc: f14-reagent-amnestic-c-desc
+  physicalDesc: f14-reagent-amnestic-c-physical-desc
   flavor: metallic
   color: "#f54242"
   metabolisms:
@@ -64,10 +64,10 @@
 
 - type: reagent
   id: AmnesticClassD
-  name: Class-D Amnestic
+  name: f14-reagent-amnestic-d-name
   group: Medicine
-  desc: An extreme anomalous memory wiping agent. Induces complete retrograde amnesia and severe brain damage.
-  physicalDesc: a void-black liquid
+  desc: f14-reagent-amnestic-d-desc
+  physicalDesc: f14-reagent-amnestic-d-physical-desc
   flavor: smokey
   color: "#000000"
   metabolisms:

@@ -58,7 +58,7 @@
     layers:
     - state: securitylvl1
   - type: IdCard
-    jobTitle: Security Officer I
+    jobTitle: f14-id-card-security-officer-1
   - type: Access
     tags:
     - Security1
@@ -74,7 +74,7 @@
     layers:
     - state: securitylvl2
   - type: IdCard
-    jobTitle: Security Officer II
+    jobTitle: f14-id-card-security-officer-2
   - type: Access
     tags:
     - Security2
@@ -91,7 +91,7 @@
     layers:
     - state: securitylvl3
   - type: IdCard
-    jobTitle: Senior Security Officer
+    jobTitle: f14-id-card-senior-security-officer
   - type: Access
     tags:
     - Security3
@@ -110,7 +110,7 @@
     layers:
     - state: securitylvl4
   - type: IdCard
-    jobTitle: Security Officer IV
+    jobTitle: f14-id-card-security-officer-4
   - type: Access
     tags:
     - Security4
@@ -130,7 +130,7 @@
     layers:
     - state: securitylvl5
   - type: IdCard
-    jobTitle: Security Commander
+    jobTitle: f14-id-card-security-commander
   - type: Access
     tags:
     - Security5
@@ -157,7 +157,7 @@
     layers:
     - state: sciencelvl1
   - type: IdCard
-    jobTitle: Lab Assistant
+    jobTitle: f14-id-card-lab-assistant
   - type: Access
     tags:
     - Science1
@@ -174,7 +174,7 @@
     layers:
     - state: sciencelvl2
   - type: IdCard
-    jobTitle: Junior Researcher
+    jobTitle: f14-id-card-junior-researcher
   - type: Access
     tags:
     - Science2
@@ -193,7 +193,7 @@
     layers:
     - state: sciencelvl3
   - type: IdCard
-    jobTitle: Researcher
+    jobTitle: f14-id-card-researcher
   - type: Access
     tags:
     - Science3
@@ -213,7 +213,7 @@
     layers:
     - state: sciencelvl4
   - type: IdCard
-    jobTitle: Senior Researcher
+    jobTitle: f14-id-card-senior-researcher
   - type: Access
     tags:
     - Science4
@@ -234,7 +234,7 @@
     layers:
     - state: sciencelvl5
   - type: IdCard
-    jobTitle: Lead Researcher
+    jobTitle: f14-id-card-lead-researcher
   - type: Access
     tags:
     - Science5
@@ -261,7 +261,7 @@
     layers:
     - state: adminlvl1
   - type: IdCard
-    jobTitle: Administrator I
+    jobTitle: f14-id-card-administrator-1
   - type: Access
     tags:
     - Admin1
@@ -277,7 +277,7 @@
     layers:
     - state: adminlvl2
   - type: IdCard
-    jobTitle: Administrator II
+    jobTitle: f14-id-card-administrator-2
   - type: Access
     tags:
     - Admin2
@@ -294,7 +294,7 @@
     layers:
     - state: adminlvl3
   - type: IdCard
-    jobTitle: Administrator III
+    jobTitle: f14-id-card-administrator-3
   - type: Access
     tags:
     - Admin3
@@ -313,7 +313,7 @@
     layers:
     - state: adminlvl4
   - type: IdCard
-    jobTitle: Deputy Director
+    jobTitle: f14-id-card-deputy-director
   - type: Access
     tags:
     - Admin4
@@ -334,7 +334,7 @@
     layers:
     - state: adminlvl5
   - type: IdCard
-    jobTitle: Site Director
+    jobTitle: f14-id-card-site-director
   - type: Access
     tags:
     - Admin5
@@ -362,7 +362,7 @@
     layers:
     - state: classd
   - type: IdCard
-    jobTitle: Class-D Personnel
+    jobTitle: f14-class-d-personnel
   - type: Access
     tags:
     - ClassD
@@ -379,7 +379,7 @@
     layers:
     - state: classdjan
   - type: IdCard
-    jobTitle: Class-D Janitor
+    jobTitle: f14-id-card-class-d-janitor
   - type: Access
     tags:
     - ClassD
@@ -397,7 +397,7 @@
     layers:
     - state: classdmed
   - type: IdCard
-    jobTitle: Class-D Medic
+    jobTitle: f14-id-card-class-d-medic
   - type: Access
     tags:
     - ClassD
@@ -415,7 +415,7 @@
     layers:
     - state: classdcook
   - type: IdCard
-    jobTitle: Class-D Cook
+    jobTitle: f14-id-card-class-d-cook
   - type: Access
     tags:
     - ClassD
@@ -433,7 +433,7 @@
     layers:
     - state: classdbot
   - type: IdCard
-    jobTitle: Class-D Botanist
+    jobTitle: f14-id-card-class-d-botanist
   - type: Access
     tags:
     - ClassD
@@ -451,7 +451,7 @@
     layers:
     - state: classdmine
   - type: IdCard
-    jobTitle: Class-D Miner
+    jobTitle: f14-id-card-class-d-miner
   - type: Access
     tags:
     - ClassD
@@ -474,7 +474,7 @@
     layers:
     - state: o5
   - type: IdCard
-    jobTitle: O5 Council
+    jobTitle: f14-id-card-o5-council
   - type: Access
     tags:
     - O5
@@ -500,7 +500,7 @@
     layers:
     - state: ci
   - type: IdCard
-    jobTitle: CI Operative
+    jobTitle: f14-id-card-ci-operative
   - type: Access
     tags:
     - CI
@@ -519,7 +519,7 @@
     layers:
     - state: cilead
   - type: IdCard
-    jobTitle: CI Commander
+    jobTitle: f14-id-card-ci-commander
   - type: Access
     tags:
     - CI

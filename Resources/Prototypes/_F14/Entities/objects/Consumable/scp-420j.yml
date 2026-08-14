@@ -1,9 +1,9 @@
 - type: reagent
   id: SCP420J
-  name: SCP-420-J extract
+  name: f14-reagent-scp-420j-name
   group: Narcotics
-  desc: The best ████ in the world. Cures literally everything, man.
-  physicalDesc: a dank, pungent smoke
+  desc: f14-reagent-scp-420j-desc
+  physicalDesc: f14-reagent-scp-420j-physical-desc
   flavor: smokey
   color: "#42f54e" 
   metabolisms:

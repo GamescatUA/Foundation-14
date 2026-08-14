@@ -4,16 +4,16 @@
 
 - type: department
   id: SCPClassD
-  name: "Class-D Personnel"
-  description: "Disposable personnel for testing and hazardous tasks."
+  name: "f14-class-d-personnel"
+  description: "f14-department-class-d-desc"
   color: "#CC5200"
   roles:
   - SCPClassD
 
 - type: department
   id: SCPCommand
-  name: "Administration"
-  description: "The leadership and administrative body of the site."
+  name: "f14-department-administration-name"
+  description: "f14-department-administration-desc"
   color: "#B8971F"
   roles:
   - SCPSiteDirector
@@ -26,8 +26,8 @@
 
 - type: department
   id: SCPEngineering
-  name: "Engineering"
-  description: "Responsible for facility maintenance and containment infrastructure."
+  name: "f14-department-engineering-name"
+  description: "f14-department-engineering-desc"
   color: "#D4A017"
   roles:
   - SCPEngineeringDirector
@@ -39,8 +39,8 @@
 
 - type: department
   id: SCPMedical
-  name: "Medical"
-  description: "Responsible for personnel health and biological anomaly research."
+  name: "f14-department-medical-name"
+  description: "f14-department-medical-desc"
   color: "#008B6B"
   roles:
   - SCPMedicalDirector
@@ -54,8 +54,8 @@
 
 - type: department
   id: SCPLogistics
-  name: "Logistics"
-  description: "Handles supplies, cleaning, and general facility services."
+  name: "f14-department-logistics-name"
+  description: "f14-department-logistics-desc"
   color: "#9E8644"
   roles:
   - SCPLogisticsOfficer
@@ -66,8 +66,8 @@
 
 - type: department
   id: SCPScience
-  name: "Research"
-  description: "Dedicated to the study, research, and understanding of anomalies."
+  name: "f14-department-research-name"
+  description: "f14-department-research-desc"
   color: "#AA44AA"
   roles:
   - SCPResearchDirector
@@ -80,8 +80,8 @@
 
 - type: department
   id: SCPSecurity
-  name: "Security"
-  description: "Responsible for facility security, personnel safety, and containment."
+  name: "f14-department-security-name"
+  description: "f14-department-security-desc"
   color: "#AA1515"
   roles:
   - SCPGuardCommander
@@ -101,8 +101,8 @@
 
 - type: department
   id: SCPSpecial
-  name: "Special"
-  description: "Specialized forces, anomalous entities, and classified personnel."
+  name: "f14-department-special-name"
+  description: "f14-department-special-desc"
   color: "#336633"
   roles:
   - SCPAIC
