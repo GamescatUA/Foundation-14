@@ -30,7 +30,6 @@
 # No idea why it's in sci but we ball.
 # Why is this one file?
 - type: job
-  hidden: true
   setPreference: false
   id: StationAi
   name: job-name-station-ai
@@ -52,7 +51,6 @@
   canHavePassport: false
 
 - type: job
-  hidden: true
   setPreference: false
   id: Borg
   name: job-name-borg

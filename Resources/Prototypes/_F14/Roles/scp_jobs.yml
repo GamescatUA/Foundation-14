@@ -15,7 +15,6 @@
   supervisors: "Research staff and security"
   weight: 20
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPClassDGear
   departments:
@@ -37,7 +36,6 @@
   supervisors: "O5 Council"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPSiteDirectorGear
   departments:
@@ -54,7 +52,6 @@
   supervisors: "Site Director"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPSiteManagerGear
   departments:
@@ -71,7 +68,6 @@
   supervisors: "Site Director"
   weight: 2
   maxPlayers: 2
-  hidden: false
   setPreference: true
   startingGear: SCPCommunicationsOfficerGear
   departments:
@@ -88,7 +84,6 @@
   supervisors: "Site Director"
   weight: 2
   maxPlayers: 2
-  hidden: false
   setPreference: true
   startingGear: SCPISDDetectiveGear
   departments:
@@ -108,7 +103,6 @@
   supervisors: "O5 Council"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPEthicsGear
   departments:
@@ -125,7 +119,6 @@
   supervisors: "Site Director"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPGOCGear
   departments:
@@ -145,7 +138,6 @@
   supervisors: "Communications Officer"
   weight: 5
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPCommsTechGear
   departments:
@@ -168,7 +160,6 @@
   supervisors: "Site Director"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPEngDirectorGear
   departments:
@@ -188,7 +179,6 @@
   supervisors: "Engineering Director"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPAsstEngDirectorGear
   departments:
@@ -206,7 +196,6 @@
   supervisors: "Engineering Director"
   weight: 3
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPContainmentEngGear
   departments:
@@ -225,7 +214,6 @@
   supervisors: "Engineering Director"
   weight: 3
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPSeniorEngGear
   departments:
@@ -242,7 +230,6 @@
   supervisors: "Senior Engineer"
   weight: 5
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPEngGear
   departments:
@@ -259,7 +246,6 @@
   supervisors: "Senior Engineer"
   weight: 7
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPJuniorEngGear
   departments:
@@ -281,7 +267,6 @@
   supervisors: "Site Director"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPMedDirectorGear
   departments:
@@ -301,7 +286,6 @@
   supervisors: "Medical Director"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPAsstMedDirectorGear
   departments:
@@ -321,7 +305,6 @@
   supervisors: "Medical Director"
   weight: 2
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPSurgeonGear
   departments:
@@ -340,7 +323,6 @@
   supervisors: "Medical Director"
   weight: 3
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPChemistGear
   departments:
@@ -360,7 +342,6 @@
   supervisors: "Medical Director"
   weight: 3
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPPsychiatristGear
   departments:
@@ -377,7 +358,6 @@
   supervisors: "Medical Director"
   weight: 5
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPMedDoctorGear
   departments:
@@ -394,7 +374,6 @@
   supervisors: "Medical Director"
   weight: 5
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPEMTGear
   departments:
@@ -411,7 +390,6 @@
   supervisors: "Medical Doctor"
   weight: 7
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPMedInternGear
   departments:
@@ -433,7 +411,6 @@
   supervisors: "Site Manager"
   weight: 2
   maxPlayers: 2
-  hidden: false
   setPreference: true
   startingGear: SCPLogOfficerGear
   departments:
@@ -452,7 +429,6 @@
   supervisors: "Logistics Officer"
   weight: 5
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPLogSpecialistGear
   departments:
@@ -469,7 +445,6 @@
   supervisors: "Site Manager"
   weight: 7
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPOfficeWorkerGear
   departments:
@@ -484,7 +459,6 @@
   supervisors: "Logistics Officer"
   weight: 3
   maxPlayers: 2
-  hidden: false
   setPreference: true
   startingGear: SCPBartenderGear
   departments:
@@ -501,7 +475,6 @@
   supervisors: "Site Manager"
   weight: 2
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPChaplainGear
   departments:
@@ -521,7 +494,6 @@
   supervisors: "Site Director"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPRDGear
   departments:
@@ -538,7 +510,6 @@
   supervisors: "Research Director"
   weight: 2
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPSeniorResearcherGear
   departments:
@@ -555,7 +526,6 @@
   supervisors: "Research Director"
   weight: 2
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPSeniorRoboticsGear
   departments:
@@ -573,7 +543,6 @@
   supervisors: "Senior Researcher"
   weight: 5
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPResearcherGear
   departments:
@@ -590,7 +559,6 @@
   supervisors: "Senior Robotics Technician"
   weight: 5
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPRoboticsGear
   departments:
@@ -608,7 +576,6 @@
   supervisors: "Researcher"
   weight: 7
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPResearcherAssociateGear
   departments:
@@ -625,7 +592,6 @@
   supervisors: "Robotics Technician"
   weight: 7
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPJuniorRoboticsGear
   departments:
@@ -647,7 +613,6 @@
   supervisors: "Site Director"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPGuardCommanderGear
   departments:
@@ -664,7 +629,6 @@
   supervisors: "Guard Commander"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPLCZJuniorLtGear
   departments:
@@ -681,7 +645,6 @@
   supervisors: "Guard Commander"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPHCZSeniorLtGear
   departments:
@@ -698,7 +661,6 @@
   supervisors: "Guard Commander"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPEZSupervisorGear
   departments:
@@ -715,7 +677,6 @@
   supervisors: "Site Director"
   weight: 2
   maxPlayers: 2
-  hidden: false
   setPreference: true
   startingGear: SCPRAISAGear
   departments:
@@ -735,7 +696,6 @@
   supervisors: "LCZ Zone Junior Lieutenant"
   weight: 3
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPLCZSergeantGear
   departments:
@@ -752,7 +712,6 @@
   supervisors: "HCZ Zone Senior Lieutenant"
   weight: 3
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPHCZSergeantGear
   departments:
@@ -769,7 +728,6 @@
   supervisors: "EZ Zone Supervisor"
   weight: 3
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPEZSeniorAgentGear
   departments:
@@ -786,7 +744,6 @@
   supervisors: "LCZ Sergeant"
   weight: 7
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPLCZGuardGear
   departments:
@@ -803,7 +760,6 @@
   supervisors: "HCZ Sergeant"
   weight: 5
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPHCZGuardGear
   departments:
@@ -820,7 +776,6 @@
   supervisors: "EZ Senior Agent"
   weight: 7
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPEZAgentGear
   departments:
@@ -837,7 +792,6 @@
   supervisors: "LCZ Guard"
   weight: 10
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPLCZCadetGear
   departments:
@@ -854,7 +808,6 @@
   supervisors: "HCZ Guard"
   weight: 10
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPHCZPrivateGear
   departments:
@@ -871,7 +824,6 @@
   supervisors: "EZ Senior Agent"
   weight: 10
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPEZProbGear
   departments:
@@ -893,7 +845,6 @@
   supervisors: "Site Director"
   weight: 1
   maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPAICGear
   departments:
@@ -910,7 +861,6 @@
   supervisors: "Research Director"
   weight: 2
   maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPRobotGear
   departments:
@@ -933,7 +883,6 @@
   supervisors: "The Foundation"
   weight: 0
   maxPlayers: 5
-  hidden: true
   setPreference: false
   startingGear: SCPO5Gear
   departments:
@@ -955,7 +904,6 @@
   supervisors: "O5 Council"
   weight: 0
   maxPlayers: 1
-  hidden: true
   setPreference: false
   startingGear: SCPMTFE11CommanderGear
   departments:
@@ -975,7 +923,6 @@
   supervisors: "MTF E-11 Commander"
   weight: 0
   maxPlayers: 2
-  hidden: true
   setPreference: false
   startingGear: SCPMTFE11LtGear
   departments:
@@ -994,7 +941,6 @@
   supervisors: "MTF E-11 Lieutenant"
   weight: 0
   maxPlayers: -1
-  hidden: true
   setPreference: false
   startingGear: SCPMTFE11SgtGear
   departments:
@@ -1011,7 +957,6 @@
   supervisors: "MTF E-11 Sergeant"
   weight: 0
   maxPlayers: -1
-  hidden: true
   setPreference: false
   startingGear: SCPMTFE11AgentGear
   departments:
@@ -1030,7 +975,6 @@
   supervisors: "O5 Council"
   weight: 0
   maxPlayers: 1
-  hidden: true
   setPreference: false
   startingGear: SCPMTFNU7CommanderGear
   departments:
@@ -1049,7 +993,6 @@
   supervisors: "MTF Nu-7 Commander"
   weight: 0
   maxPlayers: 2
-  hidden: true
   setPreference: false
   startingGear: SCPMTFNU7LtGear
   departments:
@@ -1066,7 +1009,6 @@
   supervisors: "MTF Nu-7 Lieutenant"
   weight: 0
   maxPlayers: -1
-  hidden: true
   setPreference: false
   startingGear: SCPMTFNU7AgentGear
   departments:
