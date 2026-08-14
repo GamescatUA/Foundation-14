@@ -74,7 +74,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  setPreference: false
+  setPreference: true
   id: ServiceWorker
   name: job-name-serviceworker
   description: job-description-serviceworker

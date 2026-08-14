@@ -78,7 +78,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  setPreference: false
+  setPreference: true
   id: Chef
   name: job-name-chef
   description: job-description-chef

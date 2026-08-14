@@ -120,7 +120,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  setPreference: false
+  setPreference: true
   id: Clown
   name: job-name-clown
   description: job-description-clown

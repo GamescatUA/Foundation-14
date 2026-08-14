@@ -99,7 +99,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  setPreference: false
+  setPreference: true
   id: Psychologist
   name: job-name-psychologist
   description: job-description-psychologist

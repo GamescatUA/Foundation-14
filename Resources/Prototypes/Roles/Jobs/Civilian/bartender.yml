@@ -68,7 +68,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  setPreference: false
+  setPreference: true
   id: Bartender
   name: job-name-bartender
   description: job-description-bartender

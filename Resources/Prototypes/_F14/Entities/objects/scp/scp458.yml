@@ -16,7 +16,8 @@
     grid:
     - 0,0,2,2
   - type: ContainerContainer
-    
+    containers:
+      storagebase: !type:Container
   - type: UserInterface
     interfaces:
       enum.StorageUiKey.Key:
