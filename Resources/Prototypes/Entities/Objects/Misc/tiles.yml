@@ -2001,7 +2001,7 @@
 - type: tile
   id: FloorDecayed
   name: decayed floor
-  sprite: /Textures/_F14/Tiles/floordecayed.png
+  sprite: /Textures/_F14/Tiles/FloorDecayed.png # F14: Linux case-sensitive texture path
   variants: 1
   placementVariants:
   - 1.0
@@ -2159,7 +2159,7 @@
   description: A decayed floor tile.
   components:
   - type: Sprite
-    texture: /Textures/_F14/Tiles/floordecayed.png
+    texture: /Textures/_F14/Tiles/FloorDecayed.png # F14: Linux case-sensitive texture path
   - type: FloorTile
     outputs:
     - FloorDecayed
