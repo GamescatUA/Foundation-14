@@ -90,6 +90,18 @@
     {
       "name": "submerged",
       "directions": 1
+    },
+    {
+      "name": "phased",
+      "directions": 1
+    },
+    {
+      "name": "scp-oldman_phasingin",
+      "directions": 1
+    },
+    {
+      "name": "scp-oldman_phasingout",
+      "directions": 1
     }
   ]
 }
