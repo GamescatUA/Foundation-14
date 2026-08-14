@@ -19,11 +19,8 @@
       2700: Critical
       3000: Dead
   - type: Hunger
-    enabled: false
   - type: Thirst
-    enabled: false
   - type: Metabolizer
-    enabled: false
   - type: Temperature
     currentTemperature: 1200   
     heatDamageThreshold: 99999 

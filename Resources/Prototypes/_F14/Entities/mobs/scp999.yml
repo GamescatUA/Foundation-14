@@ -8,7 +8,6 @@
   - type: Sprite
     sprite: _F14/Mobs/scp999.rsi 
     state: alive
-    noRotation: true 
   - type: NpcFactionMember 
     factions:
     - NanoTrasen 

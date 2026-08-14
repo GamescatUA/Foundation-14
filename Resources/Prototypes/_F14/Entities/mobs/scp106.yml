@@ -14,9 +14,7 @@
     thresholds:
       0: Alive
   - type: Hunger
-    enabled: false
   - type: Thirst
-    enabled: false
   - type: MeleeWeapon
     damage:
       types:
@@ -51,9 +49,7 @@
     baseWalkSpeed: 3.5
     baseSprintSpeed: 4.5
   - type: Metabolizer
-    enabled: false
   - type: Barotrauma
-    hasImmunity: true
   - type: Respirator
     damage:
       types:

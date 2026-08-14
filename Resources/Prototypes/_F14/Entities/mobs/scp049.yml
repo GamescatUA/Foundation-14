@@ -16,7 +16,6 @@
         location: right
   - type: ComplexInteraction 
   - type: Inventory 
-    template: humanoid
   - type: Strippable 
   - type: UserInterface
     interfaces:

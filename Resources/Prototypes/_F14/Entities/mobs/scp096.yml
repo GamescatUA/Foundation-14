@@ -44,7 +44,6 @@
     factions:
     - Neutral
   - type: Barotrauma
-    hasImmunity: true
   - type: Respirator
     damage:
       types:
