@@ -13,6 +13,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
+      100: Dead
   - type: Hunger
   - type: Thirst
   - type: MeleeWeapon

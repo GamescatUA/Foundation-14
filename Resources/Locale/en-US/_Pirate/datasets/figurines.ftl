@@ -1,0 +1,11 @@
+figurines-heretic-1 = It is already too late.
+figurines-heretic-2 = Dream.
+figurines-heretic-3 = Sorry...
+figurines-heretic-4 = I love the cold.
+figurines-heretic-5 = That is all for today.
+figurines-heretic-6 = The flame is eternal.
+figurines-heretic-7 = Do not look back.
+figurines-heretic-8 = The path is open.
+figurines-heretic-9 = A quiet whisper.
+figurines-heretic-10 = Knowledge has a price.
+figurines-heretic-11 = The ritual is complete.

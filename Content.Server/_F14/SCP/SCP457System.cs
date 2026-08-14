@@ -66,6 +66,10 @@ public sealed class SCP457System : EntitySystem
             if (!TryComp<FlammableComponent>(target, out var flammable))
                 continue;
 
+            // FlammableSystem updates visual state when igniting, which requires Appearance.
+            if (!HasComp<AppearanceComponent>(target))
+                continue;
+
             // seting them on fire
             _flammable.AdjustFireStacks(target, 2f, flammable);
             _flammable.Ignite(target, uid, flammable);
