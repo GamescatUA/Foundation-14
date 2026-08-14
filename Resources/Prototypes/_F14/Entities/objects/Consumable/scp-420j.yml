@@ -8,7 +8,7 @@
   color: "#42f54e" 
   metabolisms:
     Medicine:
-      rate: 0.1
+      metabolismRate: 0.1
       effects:
       - !type:HealthChange
         damage:
@@ -50,7 +50,6 @@
           Quantity: 5
           
   - type: Smokable
-    roach: CigarSpent 
     
   - type: Sprite
     sprite: _F14/objects/SCP/scp420j.rsi

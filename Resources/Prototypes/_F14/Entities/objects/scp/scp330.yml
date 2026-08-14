@@ -81,8 +81,7 @@
           Quantity: 5.0
         - ReagentId: Dylovene
           Quantity: 10.0
-        - id: Bicaridine 
-          ReagentId: Bicaridine
+        - ReagentId: Bicaridine
           Quantity: 10.0
 
 # 4. yellow one
@@ -118,7 +117,7 @@
         reagents:
         - ReagentId: Sugar
           Quantity: 5.0
-        - ReagentId: Caffeine
+        - ReagentId: Coffee
           Quantity: 15.0
 
 # KABOOOM!

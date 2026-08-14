@@ -46,7 +46,6 @@
   - type: Appearance
   - type: Sprite
     netsync: false
-    shader: unshaded
     sprite: _F14/Mobs/scp457.rsi  
     layers:
     - map: [ "enum.SCP457VisualLayers.Base" ]  

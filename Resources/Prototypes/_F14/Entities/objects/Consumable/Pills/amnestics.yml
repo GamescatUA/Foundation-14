@@ -11,7 +11,7 @@
   color: "#FFFFFF"
   metabolisms:
     Poison:
-      rate: 1
+      metabolismRate: 1
       effects:
       - !type:RPMessageEffect
         message: "You forgot, what happend last hour"
@@ -30,7 +30,7 @@
   color: "#42f56f"
   metabolisms:
     Poison:
-      rate: 1
+      metabolismRate: 1
       effects:
       - !type:RPMessageEffect
         message: "You forgot what happend last 6 hours."
@@ -49,7 +49,7 @@
   color: "#f54242"
   metabolisms:
     Poison:
-      rate: 2
+      metabolismRate: 2
       effects:
       - !type:RPMessageEffect
         message: "You forgot everything that happend last day."
@@ -72,7 +72,7 @@
   color: "#000000"
   metabolisms:
     Poison:
-      rate: 2
+      metabolismRate: 2
       effects:
       - !type:RPMessageEffect
         message: "You forgot everything, where are you? Who are you? WHO ARE THOSE PEOPLE?!"

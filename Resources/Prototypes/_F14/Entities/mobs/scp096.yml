@@ -23,9 +23,9 @@
     angle: 30
     animation: WeaponArcSlash
     wideAnimation: WeaponArcSlash
-    hitSound:
+    soundHit:
       path: /Audio/Effects/flesh_break.ogg
-    noHitSound:
+    soundNoDamage:
       path: /Audio/Weapons/Melee/swing.ogg
     damage:
       types:
