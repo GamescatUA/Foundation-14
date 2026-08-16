@@ -3,7 +3,7 @@
   id: ESBaseMob
   abstract: true
   components:
-  - type: ESInherentLight
+  # F14: ESInherentLight component was never ported, so the entry did nothing.
   - type: ESViewcone
   - type: ESViewconeOccludable
   - type: MouseRotator

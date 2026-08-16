@@ -581,6 +581,11 @@
     - state: envelope_torn
       map: ["enum.EnvelopeVisualLayers.Torn"]
       visible: false
+    # F14: the paper visualiser drives this layer on every Paper entity; without
+    # F14: it the sprite system errors once Appearance is present (see below).
+    - state: paper_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      visible: false
     - state: paper_stamp-generic
       map: ["enum.PaperVisualLayers.Stamp"]
       visible: false
@@ -617,7 +622,9 @@
     tags:
     - Trash
     - Document
-  #- type: Appearance, hide stamp marks until we have some kind of displacement
+  # F14: Appearance re-enabled - Flammable/FireVisuals below both resolve it, so
+  # F14: without it FlammableSystem throws while the entity is initialising.
+  - type: Appearance
   - type: Flammable
     fireSpread: true
     canResistFire: false

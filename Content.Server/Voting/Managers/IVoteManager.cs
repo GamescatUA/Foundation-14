@@ -71,6 +71,9 @@ namespace Content.Server.Voting.Managers
         /// <returns>A handle to the created vote.</returns>
         IVoteHandle CreateVote(VoteOptions options);
 
+        // F14: cancel every running vote (called on round restart).
+        void CancelAllVotes();
+
         void Initialize();
         void Update();
     }

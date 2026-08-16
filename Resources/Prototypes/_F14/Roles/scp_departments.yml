@@ -4,16 +4,16 @@
 
 - type: department
   id: SCPClassD
-  name: "Class-D Personnel"
-  description: "Disposable personnel for testing and hazardous tasks."
+  name: department-SCPClassD
+  description: department-SCPClassD-description
   color: "#CC5200"
   roles:
   - SCPClassD
 
 - type: department
   id: SCPCommand
-  name: "Administration"
-  description: "The leadership and administrative body of the site."
+  name: department-SCPCommand
+  description: department-SCPCommand-description
   color: "#B8971F"
   roles:
   - SCPSiteDirector
@@ -26,8 +26,8 @@
 
 - type: department
   id: SCPEngineering
-  name: "Engineering"
-  description: "Responsible for facility maintenance and containment infrastructure."
+  name: department-SCPEngineering
+  description: department-SCPEngineering-description
   color: "#D4A017"
   roles:
   - SCPEngineeringDirector
@@ -39,8 +39,8 @@
 
 - type: department
   id: SCPMedical
-  name: "Medical"
-  description: "Responsible for personnel health and biological anomaly research."
+  name: department-SCPMedical
+  description: department-SCPMedical-description
   color: "#008B6B"
   roles:
   - SCPMedicalDirector
@@ -54,8 +54,8 @@
 
 - type: department
   id: SCPLogistics
-  name: "Logistics"
-  description: "Handles supplies, cleaning, and general facility services."
+  name: department-SCPLogistics
+  description: department-SCPLogistics-description
   color: "#9E8644"
   roles:
   - SCPLogisticsOfficer
@@ -66,8 +66,8 @@
 
 - type: department
   id: SCPScience
-  name: "Research"
-  description: "Dedicated to the study, research, and understanding of anomalies."
+  name: department-SCPScience
+  description: department-SCPScience-description
   color: "#AA44AA"
   roles:
   - SCPResearchDirector
@@ -80,8 +80,8 @@
 
 - type: department
   id: SCPSecurity
-  name: "Security"
-  description: "Responsible for facility security, personnel safety, and containment."
+  name: department-SCPSecurity
+  description: department-SCPSecurity-description
   color: "#AA1515"
   roles:
   - SCPGuardCommander
@@ -101,9 +101,18 @@
 
 - type: department
   id: SCPSpecial
-  name: "Special"
-  description: "Specialized forces, anomalous entities, and classified personnel."
+  name: department-SCPSpecial
+  description: department-SCPSpecial-description
   color: "#336633"
   roles:
   - SCPAIC
   - SCPRobot
+  - SCPO5Council
+  - SCPMTFE11Commander
+  - SCPMTFE11Lieutenant
+  - SCPMTFE11Sergeant
+  - SCPMTFE11Agent
+  - SCPMTFNU7Commander
+  - SCPMTFNU7Lieutenant
+  - SCPMTFNU7Agent
+

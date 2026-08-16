@@ -32,8 +32,13 @@ namespace Content.Pirate.Server.Voting
                 return;
             }
 
+            // F14: GameTicker guards raising LobbyReadyUpEvent with #if !DEBUG, but that guard
+            // F14: is missed in the DebugOpt config CI builds with. Auto-votes started here push
+            // F14: net messages to the dummy sessions integration tests create, which throw.
+#if !DEBUG
             _voteManager.CreateStandardVote(null, StandardVoteType.Map);
             _voteManager.CreateStandardVote(null, StandardVoteType.Preset);
+#endif
         }
 
         private void OnPlayerJoinedLobby(PlayerJoinedLobbyEvent ev)

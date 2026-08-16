@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# F14: factions referenced by the SCP mobs. Deliberately declared with no
+# F14: hostile relationships, so behaviour is identical to the current state
+# F14: (the ids did not resolve at all before). Add `hostile:` entries here
+# F14: when SCPs should actually attack a faction.
+
+- type: npcFaction
+  id: SCP
+
+- type: npcFaction
+  id: Neutral

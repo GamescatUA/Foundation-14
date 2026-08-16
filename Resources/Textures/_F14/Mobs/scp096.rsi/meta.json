@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "license": "None",
+  "license": "CC-BY-SA-3.0",
   "copyright": "Foundation-14",
   "size": {
     "x": 64,
@@ -24,6 +24,10 @@
     },
     {
       "name": "running",
+      "directions": 4
+    },
+    {
+      "name": "h4wtbn8",
       "directions": 4
     }
   ]

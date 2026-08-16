@@ -8,7 +8,7 @@
   - type: Sprite
     sprite: _F14/Clothing/Belt/CI.rsi
   - type: Clothing
-    sprite: Clothing/Belt/CI.rsi
+    sprite: _F14/Clothing/Belt/CI.rsi
   - type: ExplosionResistance # Goobstation
     damageCoefficient: 0.5
   - type: Storage
@@ -28,7 +28,7 @@
         - MilitaryPowerCell # Goobstation
         - EnergyMagAmmo # Goobstation
         - HandGrenade
-        - Flashbang
+        - GrenadeFlashBang
       components:
         - Stunbaton
         - FlashOnTrigger

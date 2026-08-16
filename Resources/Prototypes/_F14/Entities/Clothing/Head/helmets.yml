@@ -299,9 +299,9 @@
   description: Basic helmet used by the chaos insurgency pilots. It stinks.
   components:
   - type: Sprite
-    sprite: _F14/Clothing/Head/Helmets/CIPilot.rsi
+    sprite: _F14/Clothing/Head/Helmets/CIpilot.rsi
   - type: Clothing
-    sprite: _F14/Clothing/Head/Helmets/CIPilot.rsi
+    sprite: _F14/Clothing/Head/Helmets/CIpilot.rsi
   - type: Armor
     coverage:
     - Head

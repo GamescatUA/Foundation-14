@@ -129,8 +129,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  hidden: true
-  setPreference: false
   id: ChiefEngineer
   name: job-name-ce
   description: job-description-ce

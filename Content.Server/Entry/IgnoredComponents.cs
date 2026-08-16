@@ -65,9 +65,8 @@ namespace Content.Server.Entry
     public static class IgnoredComponents
     {
         public static string[] List => new[] {
-            // ES START
-            "ESInherentLight",
-            // ES END
+            // F14: "ESInherentLight" removed - the component does not exist on client
+            // F14: or server, so ignoring it here failed IgnoredComponentsExistInTheCorrectPlaces.
             "ConstructionGhost",
             "IconSmooth",
             "InteractionOutline",

@@ -16,6 +16,9 @@
   - type: MobState
     allowedStates:
     - Alive
+  # SCP-173 cannot be destroyed; Alive is its only allowed state, so mark it with
+  # the engine's invincibility component rather than leaving an unreachable death.
+  - type: Godmode
   - type: MeleeWeapon
     damage:
       types:

@@ -1850,6 +1850,7 @@
 
 
 
+#region F14: custom floor tiles
 - type: tile
   id: floorgridgrey
   name: Grid gray floor
@@ -2001,7 +2002,7 @@
 - type: tile
   id: FloorDecayed
   name: decayed floor
-  sprite: /Textures/_F14/Tiles/floordecayed.png
+  sprite: /Textures/_F14/Tiles/FloorDecayed.png
   variants: 1
   placementVariants:
   - 1.0
@@ -2016,42 +2017,42 @@
 
 - type: stack
   id: floorgridgrey
-  name: grid gray floor tile
+  name: stack-floorgridgrey
   spawn: floorgridgrey
 
 - type: stack
   id: FloorWhiteCorner
-  name: white corner tile
+  name: stack-floor-white-corner
   spawn: FloorWhiteCorner
 
 - type: stack
   id: steel_corner
-  name: steel floor corner tile
+  name: stack-steel-corner
   spawn: steel_corner
 
 - type: stack
   id: FloorMonotiledark
-  name: monlith white floor tile
+  name: stack-floor-monotiledark
   spawn: FloorMonotiledark
 
 - type: stack
   id: Floor-dark-small
-  name: dark small floor tile
+  name: stack-floor-dark-small
   spawn: Floor-dark-small
 
 - type: stack
   id: Floor-dark-grid
-  name: dark grid floor tile
+  name: stack-floor-dark-grid
   spawn: Floor-dark-grid
 
 - type: stack
   id: Floor-dark-corner
-  name: dark floor corner tile
+  name: stack-floor-dark-corner
   spawn: Floor-dark-corner
 
 - type: stack
   id: FloorDecayed
-  name: decayed floor tile
+  name: stack-floor-decayed
   spawn: FloorDecayed
 
 - type: entity
@@ -2159,9 +2160,10 @@
   description: A decayed floor tile.
   components:
   - type: Sprite
-    texture: /Textures/_F14/Tiles/floordecayed.png
+    texture: /Textures/_F14/Tiles/FloorDecayed.png
   - type: FloorTile
     outputs:
     - FloorDecayed
   - type: Stack
     stackType: FloorDecayed
+#endregion F14: custom floor tiles

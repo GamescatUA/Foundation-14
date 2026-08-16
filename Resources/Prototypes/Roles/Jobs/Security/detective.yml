@@ -64,8 +64,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  hidden: true
-  setPreference: false
   id: Detective
   name: job-name-detective
   description: job-description-detective

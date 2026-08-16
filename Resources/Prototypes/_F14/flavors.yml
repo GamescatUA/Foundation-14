@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# F14: flavours referenced by SCP consumables that had no prototype.
+- type: flavor
+  id: ash
+  flavorType: Base
+  description: flavor-base-ash
+
+- type: flavor
+  id: dank
+  flavorType: Base
+  description: flavor-base-dank

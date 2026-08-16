@@ -32,7 +32,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  hidden: true
   id: CentralCommandOfficial
   name: job-name-centcomoff
   description: job-description-centcomoff

@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Foundation-14 project",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "GOLDBORDER",
+      "directions": 1
+    },
+    {
+      "name": "hud05rep",
+      "directions": 1
+    },
+    {
+      "name": "hudarchivist",
+      "directions": 1
+    },
+    {
+      "name": "hudassistantengineer",
+      "directions": 1
+    },
+    {
+      "name": "hudassistantscienceofficer",
+      "directions": 1
+    },
+    {
+      "name": "hudatmospherictechnician",
+      "directions": 1
+    },
+    {
+      "name": "hudbartender",
+      "directions": 1
+    },
+    {
+      "name": "hudchaplain",
+      "directions": 1
+    },
+    {
+      "name": "hudchiefengineer",
+      "directions": 1
+    },
+    {
+      "name": "hudchiefmedicalofficer",
+      "directions": 1
+    },
+    {
+      "name": "hudchiefscienceofficer",
+      "directions": 1
+    },
+    {
+      "name": "hudcommsofficer",
+      "directions": 1
+    },
+    {
+      "name": "hudcommsprogrammer",
+      "directions": 1
+    },
+    {
+      "name": "hudcontainmentengineer",
+      "directions": 1
+    },
+    {
+      "name": "hudcook",
+      "directions": 1
+    },
+    {
+      "name": "huddclass",
+      "directions": 1
+    },
+    {
+      "name": "huddeckchief",
+      "directions": 1
+    },
+    {
+      "name": "huddecktechnician",
+      "directions": 1
+    },
+    {
+      "name": "hudemt",
+      "directions": 1
+    },
+    {
+      "name": "hudengineer",
+      "directions": 1
+    },
+    {
+      "name": "hudengineeringcontractor",
+      "directions": 1
+    },
+    {
+      "name": "hudexplorer",
+      "directions": 1
+    },
+    {
+      "name": "hudezcommander",
+      "directions": 1
+    },
+    {
+      "name": "hudezguard",
+      "directions": 1
+    },
+    {
+      "name": "hudezsarge",
+      "directions": 1
+    },
+    {
+      "name": "hudezsenior",
+      "directions": 1
+    },
+    {
+      "name": "hudforensictechnician",
+      "directions": 1
+    },
+    {
+      "name": "hudgardener",
+      "directions": 1
+    },
+    {
+      "name": "hudgoi",
+      "directions": 1
+    },
+    {
+      "name": "hudguardcommander",
+      "directions": 1
+    },
+    {
+      "name": "hudhczcommander",
+      "directions": 1
+    },
+    {
+      "name": "hudhczguard",
+      "directions": 1
+    },
+    {
+      "name": "hudhczsarge",
+      "directions": 1
+    },
+    {
+      "name": "hudhczsenior",
+      "directions": 1
+    },
+    {
+      "name": "hudhumanresources",
+      "directions": 1
+    },
+    {
+      "name": "hudittech",
+      "directions": 1
+    },
+    {
+      "name": "hudlczcommander",
+      "directions": 1
+    },
+    {
+      "name": "hudlczguard",
+      "directions": 1
+    },
+    {
+      "name": "hudlczsarge",
+      "directions": 1
+    },
+    {
+      "name": "hudlczsenior",
+      "directions": 1
+    },
+    {
+      "name": "hudmerchant",
+      "directions": 1
+    },
+    {
+      "name": "hudpathfinder",
+      "directions": 1
+    },
+    {
+      "name": "hudpharmacist",
+      "directions": 1
+    },
+    {
+      "name": "hudphysician",
+      "directions": 1
+    },
+    {
+      "name": "hudprospector",
+      "directions": 1
+    },
+    {
+      "name": "hudraisa",
+      "directions": 1
+    },
+    {
+      "name": "hudresearchassistant",
+      "directions": 1
+    },
+    {
+      "name": "hudsanitationtechnician",
+      "directions": 1
+    },
+    {
+      "name": "hudscientist",
+      "directions": 1
+    },
+    {
+      "name": "hudseniorengineer",
+      "directions": 1
+    },
+    {
+      "name": "hudseniorenlistedadvisor",
+      "directions": 1
+    },
+    {
+      "name": "hudseniorresearcher",
+      "directions": 1
+    },
+    {
+      "name": "hudsitedirector",
+      "directions": 1
+    },
+    {
+      "name": "hudsupplyassistant",
+      "directions": 1
+    },
+    {
+      "name": "hudsurgeon",
+      "directions": 1
+    },
+    {
+      "name": "hudtraineemedicaltechnician",
+      "directions": 1
+    },
+    {
+      "name": "hudunknown",
+      "directions": 1
+    },
+    {
+      "name": "hudvirologist",
+      "directions": 1
+    },
+    {
+      "name": "hudxenolifetechnician",
+      "directions": 1
+    }
+  ]
+}

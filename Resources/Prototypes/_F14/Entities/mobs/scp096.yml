@@ -23,10 +23,13 @@
     angle: 30
     animation: WeaponArcSlash
     wideAnimation: WeaponArcSlash
-    hitSound:
-      path: /Audio/Effects/flesh_break.ogg
-    noHitSound:
-      path: /Audio/Weapons/Melee/swing.ogg
+    # TODO F14: MeleeWeaponComponent has no hitSound/noHitSound fields, and both
+    # TODO F14: sound files below are missing from Resources/Audio. Re-add using
+    # TODO F14: the supported soundHit/soundNoDamage fields once real sounds exist.
+    # hitSound:
+    #   path: /Audio/Effects/flesh_break.ogg
+    # noHitSound:
+    #   path: /Audio/Weapons/Melee/swing.ogg
     damage:
       types:
         Slash: 70
@@ -43,8 +46,6 @@
   - type: NpcFactionMember
     factions:
     - Neutral
-  - type: Barotrauma
-    hasImmunity: true
   - type: Respirator
     damage:
       types:
