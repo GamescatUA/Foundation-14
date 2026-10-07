@@ -18,12 +18,6 @@
       0:    Alive
       2700: Critical
       3000: Dead
-  - type: Hunger
-    enabled: false
-  - type: Thirst
-    enabled: false
-  - type: Metabolizer
-    enabled: false
   - type: Temperature
     currentTemperature: 1200   
     heatDamageThreshold: 99999 
@@ -49,8 +43,7 @@
   - type: Appearance
   - type: Sprite
     netsync: false
-    shader: unshaded
-    sprite: _F14/Mobs/scp457.rsi  
+    sprite: _F14/Mobs/scp457.rsi
     layers:
     - map: [ "enum.SCP457VisualLayers.Base" ]  
       state: idle

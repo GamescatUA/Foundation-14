@@ -99,6 +99,7 @@ namespace Content.IntegrationTests.Tests
                 .Where(p => !p.Abstract)
                 .Where(p => !pair.IsTestPrototype(p))
                 .Where(p => !p.Components.ContainsKey("MapGrid")) // This will smash stuff otherwise.
+                .Where(p => !p.Components.ContainsKey("Map")) // F14: a map entity cannot be spawned as a child of a grid.
                 .Where(p => !p.Components.ContainsKey("MobReplacementRule")) // goob edit - fuck them mimics
                 .Where(p => !p.Components.ContainsKey("Supermatter")) // Goobstation - Supermatter eats everything, oh no!
                 .Where(p => !p.Components.ContainsKey("RoomFill")) // This comp can delete all entities, and spawn others
@@ -216,6 +217,7 @@ namespace Content.IntegrationTests.Tests
                     .Where(p => !p.Abstract)
                     .Where(p => !pair.IsTestPrototype(p))
                     .Where(p => !p.Components.ContainsKey("MapGrid")) // This will smash stuff otherwise.
+                    .Where(p => !p.Components.ContainsKey("Map")) // F14: a map entity cannot be spawned as a child of a grid.
                     .Where(p => !p.Components.ContainsKey("Supermatter")) // Goobstation - Supermatter eats everything, oh no!
                     .Where(p => !p.Components.ContainsKey("RoomFill")) // This comp can delete all entities, and spawn others
                     .Select(p => p.ID)
@@ -278,6 +280,7 @@ namespace Content.IntegrationTests.Tests
                 .Where(p => !p.Abstract)
                 .Where(p => !pair.IsTestPrototype(p))
                 .Where(p => !p.Components.ContainsKey("MapGrid")) // This will smash stuff otherwise.
+                .Where(p => !p.Components.ContainsKey("Map")) // F14: a map entity cannot be spawned as a child of a grid.
                 .Where(p => !p.Components.ContainsKey("MobReplacementRule")) // goob edit - fuck them mimics
                 .Where(p => !p.Components.ContainsKey("Supermatter")) // Goobstation - Supermatter eats everything, oh no!
                 .Select(p => p.ID)
@@ -401,6 +404,7 @@ namespace Content.IntegrationTests.Tests
             var excluded = new[]
             {
                 "MapGrid",
+                "Map", // F14: a map entity cannot be spawned as a child of a grid.
                 "StationEvent",
                 "TimedDespawn",
 

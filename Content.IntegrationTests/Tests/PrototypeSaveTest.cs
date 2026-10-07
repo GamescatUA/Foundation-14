@@ -88,6 +88,10 @@ public sealed class PrototypeSaveTest
             if (prototype.Components.ContainsKey("MapGrid"))
                 continue;
 
+            // F14: likewise, a map entity cannot be spawned as a child of a grid.
+            if (prototype.Components.ContainsKey("Map"))
+                continue;
+
             // Currently mobs and such can't be serialized, but they aren't flagged as serializable anyways.
             if (!prototype.MapSavable)
                 continue;

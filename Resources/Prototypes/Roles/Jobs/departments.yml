@@ -100,7 +100,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: department
-  hidden: true
+  editorHidden: true # F14: hide unused department from the character editor
   id: Cargo
   name: department-Cargo
   description: department-Cargo-description
@@ -112,7 +112,7 @@
   - ShaftMiner # Lavaland Change
 
 - type: department
-  hidden: true
+  editorHidden: true # F14: hide unused department from the character editor
   id: Civilian
   name: department-Civilian
   description: department-Civilian-description
@@ -139,7 +139,6 @@
   - PartyMaker # event-restricted, Goobstation
 
 - type: department
-  hidden: true
   id: CentralCommand
   name: department-CentralCommand
   description: department-CentralCommand-description
@@ -168,7 +167,7 @@
   weight: 120
 
 - type: department
-  hidden: true
+  editorHidden: true # F14: hide unused department from the character editor
   id: Command
   name: department-Command
   description: department-Command-description
@@ -200,7 +199,7 @@
   weight: 100
 
 - type: department
-  hidden: true
+  editorHidden: true # F14: hide unused department from the character editor
   id: Engineering
   name: department-Engineering
   description: department-Engineering-description
@@ -212,7 +211,7 @@
   - TechnicalAssistant
 
 - type: department
-  hidden: true
+  editorHidden: true # F14: hide unused department from the character editor
   id: Medical
   name: department-Medical
   description: department-Medical-description
@@ -227,7 +226,7 @@
   - Virologist # Gooby goob ba gooby goob ba
 
 - type: department
-  hidden: true
+  editorHidden: true # F14: hide unused department from the character editor
   id: Security
   name: department-Security
   description: department-Security-description
@@ -243,7 +242,7 @@
   - SecurityClown # event-restricted, Goob
 
 - type: department
-  hidden: true
+  editorHidden: true # F14: hide unused department from the character editor
   id: Science
   name: department-Science
   description: department-Science-description
@@ -256,7 +255,7 @@
   - Roboticist #Goob
 
 - type: department
-  hidden: true
+  editorHidden: true # F14: hide unused department from the character editor
   id: Silicon
   name: department-Silicon
   description: department-Silicon-description
@@ -266,7 +265,7 @@
   - StationAi
 
 - type: department
-  hidden: true
+  editorHidden: true # F14: hide unused department from the character editor
   id: Specific
   name: department-Specific
   description: department-Specific-description

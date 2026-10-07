@@ -15,8 +15,8 @@
       right:
         location: right
   - type: ComplexInteraction 
-  - type: Inventory 
-    template: humanoid
+  - type: Inventory
+    templateId: human
   - type: Strippable 
   - type: UserInterface
     interfaces:

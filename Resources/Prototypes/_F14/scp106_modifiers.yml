@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# SCP-106 cannot be harmed by conventional means; every damage type is nullified.
+- type: damageModifierSet
+  id: SCP106Invincible
+  coefficients:
+    Blunt:        0.0
+    Slash:        0.0
+    Piercing:     0.0
+    Heat:         0.0
+    Cold:         0.0
+    Shock:        0.0
+    Caustic:      0.0
+    Poison:       0.0
+    Radiation:    0.0
+    Asphyxiation: 0.0
+    Bloodloss:    0.0
+    Cellular:     0.0
+    Structural:   0.0
+    Holy:         0.0

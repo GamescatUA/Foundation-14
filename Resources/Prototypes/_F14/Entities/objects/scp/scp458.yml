@@ -15,7 +15,11 @@
     maxItemSize: Normal
     grid:
     - 0,0,2,2
-    
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+
   - type: UserInterface
     interfaces:
       enum.StorageUiKey.Key:
@@ -34,4 +38,5 @@
     size: Normal
     
   - type: SCP458
-    pizzaPrototype: FoodPizzaMargherita
+    pizzaPrototypes:
+    - FoodPizzaMargherita

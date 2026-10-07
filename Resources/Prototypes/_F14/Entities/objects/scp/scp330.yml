@@ -6,12 +6,15 @@
   - type: Transform
     anchored: true
   - type: Sprite
-    sprite: _F14/Objects/SCP/scp330.rsi
+    sprite: _F14/objects/SCP/scp330.rsi
     state: icon
   - type: Clickable
   - type: InteractionOutline
   - type: Physics
     bodyType: Static
+    # No Fixtures, so physics turns collision off at init anyway; declared here
+    # so the spawned entity matches the prototype.
+    canCollide: false
   - type: SCP330
 
 
@@ -34,7 +37,7 @@
   id: SCP330Candy1
   components:
   - type: Sprite
-    sprite: _F14/Objects/SCP/scp330candies.rsi
+    sprite: _F14/objects/SCP/scp330candies.rsi
     state: candy1
   - type: SolutionContainerManager
     solutions:
@@ -52,7 +55,7 @@
   id: SCP330Candy2
   components:
   - type: Sprite
-    sprite: _F14/Objects/SCP/scp330candies.rsi
+    sprite: _F14/objects/SCP/scp330candies.rsi
     state: candy2
   - type: SolutionContainerManager
     solutions:
@@ -70,7 +73,7 @@
   id: SCP330Candy3
   components:
   - type: Sprite
-    sprite: _F14/Objects/SCP/scp330candies.rsi
+    sprite: _F14/objects/SCP/scp330candies.rsi
     state: candy3
   - type: SolutionContainerManager
     solutions:
@@ -81,8 +84,7 @@
           Quantity: 5.0
         - ReagentId: Dylovene
           Quantity: 10.0
-        - id: Bicaridine 
-          ReagentId: Bicaridine
+        - ReagentId: Bicaridine
           Quantity: 10.0
 
 # 4. yellow one
@@ -91,7 +93,7 @@
   id: SCP330Candy4
   components:
   - type: Sprite
-    sprite: _F14/Objects/SCP/scp330candies.rsi
+    sprite: _F14/objects/SCP/scp330candies.rsi
     state: candy4
   - type: SolutionContainerManager
     solutions:
@@ -109,7 +111,7 @@
   id: SCP330Candy5
   components:
   - type: Sprite
-    sprite: _F14/Objects/SCP/scp330candies.rsi
+    sprite: _F14/objects/SCP/scp330candies.rsi
     state: candy5
   - type: SolutionContainerManager
     solutions:
@@ -118,7 +120,7 @@
         reagents:
         - ReagentId: Sugar
           Quantity: 5.0
-        - ReagentId: Caffeine
+        - ReagentId: Coffee
           Quantity: 15.0
 
 # KABOOOM!
@@ -128,7 +130,7 @@
   components:
   - type: SCP330PinkCandy
   - type: Sprite
-    sprite: _F14/Objects/SCP/scp330candies.rsi
+    sprite: _F14/objects/SCP/scp330candies.rsi
     state: candy6
   - type: SolutionContainerManager
     solutions:
@@ -144,7 +146,7 @@
   id: SCP330Candy7
   components:
   - type: Sprite
-    sprite: _F14/Objects/SCP/scp330candies.rsi
+    sprite: _F14/objects/SCP/scp330candies.rsi
     state: candy7
   - type: SolutionContainerManager
     solutions:

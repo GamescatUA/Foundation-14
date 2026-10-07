@@ -1,14 +1,14 @@
 - type: reagent
   id: SCP420J
-  name: SCP-420-J extract
+  name: reagent-name-scp420-j
   group: Narcotics
-  desc: The best ████ in the world. Cures literally everything, man.
-  physicalDesc: a dank, pungent smoke
-  flavor: incredibly dank
+  desc: reagent-desc-scp420-j
+  physicalDesc: reagent-physical-desc-scp420-j
+  flavor: dank
   color: "#42f54e" 
   metabolisms:
     Medicine:
-      rate: 0.1
+      metabolismRate: 0.1
       effects:
       - !type:HealthChange
         damage:
@@ -50,7 +50,9 @@
           Quantity: 5
           
   - type: Smokable
-    roach: CigarSpent 
+    # TODO F14: SmokableComponent has no roach/spent-prototype field in this engine
+    # TODO F14: version. Restore leaving a CigarSpent butt if support is added.
+    # roach: CigarSpent
     
   - type: Sprite
     sprite: _F14/objects/SCP/scp420j.rsi

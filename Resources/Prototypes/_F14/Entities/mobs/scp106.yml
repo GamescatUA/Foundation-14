@@ -13,10 +13,9 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-  - type: Hunger
-    enabled: false
-  - type: Thirst
-    enabled: false
+  # SCP-106 cannot be killed by conventional means. Godmode is the engine's own
+  # invincibility marker, so damage systems (and AllMobsCanDie) treat it correctly.
+  - type: Godmode
   - type: MeleeWeapon
     damage:
       types:
@@ -46,14 +45,10 @@
     layers:
     - map: [ "enum.SCP106VisualLayers.Base" ]
       state: alive
-    drawDepth: 0
+    drawdepth: 0
   - type: MovementSpeedModifier
     baseWalkSpeed: 3.5
     baseSprintSpeed: 4.5
-  - type: Metabolizer
-    enabled: false
-  - type: Barotrauma
-    hasImmunity: true
   - type: Respirator
     damage:
       types:
@@ -67,9 +62,9 @@
   name: "Toggle Submerge"
   description: "Allows SCP-106 to hide under the floor and wall textures."
   components:
-  - type: Action # 
+  - type: Action # icon lives on Action, not InstantAction
+    icon: _F14/Interface/VerbIcons/arrow_up.png
   - type: InstantAction
-    icon: { sprite: Textures/_F14/Interface/VerbIcons/arrow_up.png }
     event: !type:SCP106ToggleSubmersionEvent
 
 - type: entity
@@ -77,9 +72,9 @@
   name: "Move Up (Multi-Z)"
   description: "Moves you to the floor above. Only possible while submerged."
   components:
-  - type: Action
+  - type: Action # icon lives on Action, not InstantAction
+    icon: _F14/Interface/VerbIcons/arrow_down.png
   - type: InstantAction
-    icon: { sprite: Textures/_F14/Interface/VerbIcons/arrow_down.png }
     event: !type:SCP106MoveUpEvent
 
 - type: entity
@@ -87,9 +82,9 @@
   name: "Move Down (Multi-Z)"
   description: "Moves you to the floor below. Only possible while submerged."
   components:
-  - type: Action
+  - type: Action # icon lives on Action, not InstantAction
+    icon: _F14/Interface/VerbIcons/arrow_down.png
   - type: InstantAction
-    icon: { sprite: Textures/_F14/Interface/VerbIcons/arrow_down.png }
     event: !type:SCP106MoveDownEvent
 
 

@@ -95,8 +95,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  hidden: true
-  setPreference: false
   id: SecurityCadet
   name: job-name-cadet
   description: job-description-cadet

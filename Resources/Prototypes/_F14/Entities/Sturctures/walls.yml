@@ -376,9 +376,9 @@
   name: Heavy containment zone wall
   components:
   - type: Sprite
-    sprite: _F14/Structures/Walls/HCZ.rsi
+    sprite: _F14/Structures/Walls/hcz.rsi
   - type: Icon
-    sprite: _F14/Structures/Walls/HCZ.rsi
+    sprite: _F14/Structures/Walls/hcz.rsi
     state: full
   - type: IconSmooth
     key: walls

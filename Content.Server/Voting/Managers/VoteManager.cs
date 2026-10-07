@@ -446,6 +446,15 @@ namespace Content.Server.Voting.Managers
             DirtyCanCallVoteAll();
         }
 
+        // F14: votes used to survive a round restart, leaking a live vote into the next
+        // F14: round (and, in integration tests, into the next pooled pair - where sending
+        // F14: an update to a dummy session throws). Cancel everything still running.
+        public void CancelAllVotes()
+        {
+            foreach (var v in _votes.Values.ToArray())
+                CancelVote(v);
+        }
+
         private void CancelVote(VoteReg v)
         {
             if (v.Cancelled)

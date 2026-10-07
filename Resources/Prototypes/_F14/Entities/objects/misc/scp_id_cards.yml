@@ -58,7 +58,7 @@
     layers:
     - state: securitylvl1
   - type: IdCard
-    jobTitle: Security Officer I
+    jobTitle: job-title-scp-security-officer-i
   - type: Access
     tags:
     - Security1
@@ -74,7 +74,7 @@
     layers:
     - state: securitylvl2
   - type: IdCard
-    jobTitle: Security Officer II
+    jobTitle: job-title-scp-security-officer-ii
   - type: Access
     tags:
     - Security2
@@ -91,7 +91,7 @@
     layers:
     - state: securitylvl3
   - type: IdCard
-    jobTitle: Senior Security Officer
+    jobTitle: job-title-scp-senior-security-officer
   - type: Access
     tags:
     - Security3
@@ -110,7 +110,7 @@
     layers:
     - state: securitylvl4
   - type: IdCard
-    jobTitle: Security Officer IV
+    jobTitle: job-title-scp-security-officer-iv
   - type: Access
     tags:
     - Security4
@@ -130,7 +130,7 @@
     layers:
     - state: securitylvl5
   - type: IdCard
-    jobTitle: Security Commander
+    jobTitle: job-title-scp-security-commander
   - type: Access
     tags:
     - Security5
@@ -157,7 +157,7 @@
     layers:
     - state: sciencelvl1
   - type: IdCard
-    jobTitle: Lab Assistant
+    jobTitle: job-title-scp-lab-assistant
   - type: Access
     tags:
     - Science1
@@ -174,7 +174,7 @@
     layers:
     - state: sciencelvl2
   - type: IdCard
-    jobTitle: Junior Researcher
+    jobTitle: job-title-scp-junior-researcher
   - type: Access
     tags:
     - Science2
@@ -193,7 +193,7 @@
     layers:
     - state: sciencelvl3
   - type: IdCard
-    jobTitle: Researcher
+    jobTitle: job-title-scp-researcher
   - type: Access
     tags:
     - Science3
@@ -213,7 +213,7 @@
     layers:
     - state: sciencelvl4
   - type: IdCard
-    jobTitle: Senior Researcher
+    jobTitle: job-title-scp-senior-researcher
   - type: Access
     tags:
     - Science4
@@ -234,7 +234,7 @@
     layers:
     - state: sciencelvl5
   - type: IdCard
-    jobTitle: Lead Researcher
+    jobTitle: job-title-scp-lead-researcher
   - type: Access
     tags:
     - Science5
@@ -261,7 +261,7 @@
     layers:
     - state: adminlvl1
   - type: IdCard
-    jobTitle: Administrator I
+    jobTitle: job-title-scp-administrator-i
   - type: Access
     tags:
     - Admin1
@@ -277,7 +277,7 @@
     layers:
     - state: adminlvl2
   - type: IdCard
-    jobTitle: Administrator II
+    jobTitle: job-title-scp-administrator-ii
   - type: Access
     tags:
     - Admin2
@@ -294,7 +294,7 @@
     layers:
     - state: adminlvl3
   - type: IdCard
-    jobTitle: Administrator III
+    jobTitle: job-title-scp-administrator-iii
   - type: Access
     tags:
     - Admin3
@@ -313,7 +313,7 @@
     layers:
     - state: adminlvl4
   - type: IdCard
-    jobTitle: Deputy Director
+    jobTitle: job-title-scp-deputy-director
   - type: Access
     tags:
     - Admin4
@@ -334,7 +334,7 @@
     layers:
     - state: adminlvl5
   - type: IdCard
-    jobTitle: Site Director
+    jobTitle: job-title-scp-site-director
   - type: Access
     tags:
     - Admin5
@@ -362,7 +362,7 @@
     layers:
     - state: classd
   - type: IdCard
-    jobTitle: Class-D Personnel
+    jobTitle: job-title-scp-class-d-personnel
   - type: Access
     tags:
     - ClassD
@@ -379,7 +379,7 @@
     layers:
     - state: classdjan
   - type: IdCard
-    jobTitle: Class-D Janitor
+    jobTitle: job-title-scp-class-d-janitor
   - type: Access
     tags:
     - ClassD
@@ -397,7 +397,7 @@
     layers:
     - state: classdmed
   - type: IdCard
-    jobTitle: Class-D Medic
+    jobTitle: job-title-scp-class-d-medic
   - type: Access
     tags:
     - ClassD
@@ -415,7 +415,7 @@
     layers:
     - state: classdcook
   - type: IdCard
-    jobTitle: Class-D Cook
+    jobTitle: job-title-scp-class-d-cook
   - type: Access
     tags:
     - ClassD
@@ -433,7 +433,7 @@
     layers:
     - state: classdbot
   - type: IdCard
-    jobTitle: Class-D Botanist
+    jobTitle: job-title-scp-class-d-botanist
   - type: Access
     tags:
     - ClassD
@@ -451,7 +451,7 @@
     layers:
     - state: classdmine
   - type: IdCard
-    jobTitle: Class-D Miner
+    jobTitle: job-title-scp-class-d-miner
   - type: Access
     tags:
     - ClassD
@@ -474,7 +474,7 @@
     layers:
     - state: o5
   - type: IdCard
-    jobTitle: O5 Council
+    jobTitle: job-title-scp-o5-council
   - type: Access
     tags:
     - O5
@@ -500,7 +500,7 @@
     layers:
     - state: ci
   - type: IdCard
-    jobTitle: CI Operative
+    jobTitle: job-title-scp-ci-operative
   - type: Access
     tags:
     - CI
@@ -519,7 +519,7 @@
     layers:
     - state: cilead
   - type: IdCard
-    jobTitle: CI Commander
+    jobTitle: job-title-scp-ci-commander
   - type: Access
     tags:
     - CI

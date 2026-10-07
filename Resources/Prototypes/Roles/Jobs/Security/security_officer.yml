@@ -84,8 +84,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  hidden: true
-  setPreference: false
   id: SecurityOfficer
   name: job-name-security
   description: job-description-security

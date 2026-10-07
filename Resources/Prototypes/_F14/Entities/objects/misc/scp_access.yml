@@ -331,3 +331,36 @@
   - CILeader
   - Infiltrator
   - HighAccess
+
+# ---- Technical / Engineering Groups ----
+# F14: engineering access tier. The levels exist so jobs can carry the tags;
+# F14: no doors require them yet, so this grants no access until wired up.
+- type: accessLevel
+  id: Tech1
+  name: Technical 1
+
+- type: accessLevel
+  id: Tech2
+  name: Technical 2
+
+- type: accessLevel
+  id: Tech3
+  name: Technical 3
+
+- type: accessGroup
+  id: TechLevel1
+  tags:
+  - Tech1
+
+- type: accessGroup
+  id: TechLevel2
+  tags:
+  - Tech2
+  - Tech1
+
+- type: accessGroup
+  id: TechLevel3
+  tags:
+  - Tech3
+  - Tech2
+  - Tech1

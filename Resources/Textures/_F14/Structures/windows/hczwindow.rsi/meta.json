@@ -2,6 +2,7 @@
     "version": 1,
     "size": { "x": 32, "y": 32 },
     "license": "CC-BY-SA-3.0",
+    "copyright": "Foundation-14 project",
     "states": [
         { "name": "hczwindow0" }, { "name": "hczwindow1" }, { "name": "hczwindow2" }, { "name": "hczwindow3" },
         { "name": "hczwindow4" }, { "name": "hczwindow5" }, { "name": "hczwindow6" }, { "name": "hczwindow7" },

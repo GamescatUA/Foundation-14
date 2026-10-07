@@ -1,4 +1,5 @@
 - type: department
+  editorHidden: true # F14: only SCP roles are selectable
   id: SquidGame
   name: department-name-squidgame
   description: department-desc-squidgame

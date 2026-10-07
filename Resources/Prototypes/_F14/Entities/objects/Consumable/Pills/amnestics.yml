@@ -3,15 +3,15 @@
 # ==================================
 - type: reagent
   id: AmnesticClassA
-  name: Class-A Amnestic
+  name: reagent-name-amnestic-class-a
   group: Medicine
-  desc: A fast-acting memory wiping agent. Erases the last hour.
-  physicalDesc: a clear liquid
+  desc: reagent-desc-amnestic-class-a
+  physicalDesc: reagent-physical-desc-amnestic-class-a
   flavor: chalky
   color: "#FFFFFF"
   metabolisms:
     Poison:
-      rate: 1
+      metabolismRate: 1
       effects:
       - !type:RPMessageEffect
         message: "You forgot, what happend last hour"
@@ -22,15 +22,15 @@
 
 - type: reagent
   id: AmnesticClassB
-  name: Class-B Amnestic
+  name: reagent-name-amnestic-class-b
   group: Medicine
-  desc: A potent memory wiping agent. Erases the last 6 hours.
-  physicalDesc: a glowing green liquid
+  desc: reagent-desc-amnestic-class-b
+  physicalDesc: reagent-physical-desc-amnestic-class-b
   flavor: bitter
   color: "#42f56f"
   metabolisms:
     Poison:
-      rate: 1
+      metabolismRate: 1
       effects:
       - !type:RPMessageEffect
         message: "You forgot what happend last 6 hours."
@@ -41,15 +41,15 @@
 
 - type: reagent
   id: AmnesticClassC
-  name: Class-C Amnestic
+  name: reagent-name-amnestic-class-c
   group: Medicine
-  desc: A heavy-duty memory wiping agent. Erases the last 24 hours and induces sleep.
-  physicalDesc: a thick red liquid
+  desc: reagent-desc-amnestic-class-c
+  physicalDesc: reagent-physical-desc-amnestic-class-c
   flavor: metallic
   color: "#f54242"
   metabolisms:
     Poison:
-      rate: 2
+      metabolismRate: 2
       effects:
       - !type:RPMessageEffect
         message: "You forgot everything that happend last day."
@@ -64,15 +64,15 @@
 
 - type: reagent
   id: AmnesticClassD
-  name: Class-D Amnestic
+  name: reagent-name-amnestic-class-d
   group: Medicine
-  desc: An extreme anomalous memory wiping agent. Induces complete retrograde amnesia and severe brain damage.
-  physicalDesc: a void-black liquid
+  desc: reagent-desc-amnestic-class-d
+  physicalDesc: reagent-physical-desc-amnestic-class-d
   flavor: ash
   color: "#000000"
   metabolisms:
     Poison:
-      rate: 2
+      metabolismRate: 2
       effects:
       - !type:RPMessageEffect
         message: "You forgot everything, where are you? Who are you? WHO ARE THOSE PEOPLE?!"

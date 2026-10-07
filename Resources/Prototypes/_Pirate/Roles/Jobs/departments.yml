@@ -1,4 +1,5 @@
 - type: department
+  editorHidden: true # F14: only SCP roles are selectable
   id: Interdyne
   name: department-Interdyne
   description: department-Interdyne-description

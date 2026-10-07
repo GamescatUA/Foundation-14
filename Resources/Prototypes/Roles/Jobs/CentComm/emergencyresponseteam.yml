@@ -115,7 +115,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 # Leader
 - type: job
-  hidden: true
   id: ERTLeader
   name: job-name-ertleader
   description: job-description-ertleader
@@ -198,7 +197,6 @@
 
 # Chaplain
 - type: job
-  hidden: true
   id: ERTChaplain
   name: job-name-ertchaplain
   description: job-description-ertchaplain
@@ -301,7 +299,6 @@
 
 # Engineer
 - type: job
-  hidden: true
   id: ERTEngineer
   name: job-name-ertengineer
   description: job-description-ertengineer
@@ -394,7 +391,6 @@
 
 # Security
 - type: job
-  hidden: true
   id: ERTSecurity
   name: job-name-ertsecurity
   description: job-description-ertsecurity
@@ -502,7 +498,6 @@
 
 # Medical
 - type: job
-  hidden: true
   id: ERTMedical
   name: job-name-ertmedic
   description: job-description-ertmedic
@@ -589,7 +584,6 @@
 
 # Janitor
 - type: job
-  hidden: true
   id: ERTJanitor
   name: job-name-ertjanitor
   description: job-description-ertjanitor

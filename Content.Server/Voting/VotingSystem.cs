@@ -8,8 +8,10 @@
 using Content.Server.Administration.Managers;
 using Content.Server.Database;
 using Content.Server.GameTicking;
+using Content.Server.Voting.Managers; // F14
 using Content.Server.Roles.Jobs;
 using Content.Shared.CCVar;
+using Content.Shared.GameTicking; // F14
 using Content.Shared.Ghost;
 using Content.Shared.Mind.Components;
 using Content.Shared.Voting;
@@ -34,12 +36,22 @@ public sealed class VotingSystem : EntitySystem
     [Dependency] private readonly JobSystem _jobs = default!;
     [Dependency] private readonly GameTicker _gameTicker = default!;
     [Dependency] private readonly ISharedPlaytimeManager _playtimeManager = default!;
+    [Dependency] private readonly IVoteManager _voteManager = default!; // F14
 
     public override void Initialize()
     {
         base.Initialize();
 
         SubscribeNetworkEvent<VotePlayerListRequestEvent>(OnVotePlayerListRequestEvent);
+
+        // F14: make sure no vote survives into the next round.
+        SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestartCleanup);
+    }
+
+    // F14: cancel any still-running votes when the round restarts.
+    private void OnRoundRestartCleanup(RoundRestartCleanupEvent ev)
+    {
+        _voteManager.CancelAllVotes();
     }
 
     private async void OnVotePlayerListRequestEvent(VotePlayerListRequestEvent msg, EntitySessionEventArgs args)

@@ -14,12 +14,8 @@
   icon: "huddclass"
   supervisors: "Research staff and security"
   weight: 20
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPClassDGear
-  departments:
-  - SCPClassD
   accessGroups:
   - ClassD
 
@@ -36,12 +32,8 @@
   icon: "hudsitedirector"
   supervisors: "O5 Council"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPSiteDirectorGear
-  departments:
-  - SCPCommand
   accessGroups:
   - SiteDirector
 
@@ -53,12 +45,8 @@
   icon: "hudhumanresources"
   supervisors: "Site Director"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPSiteManagerGear
-  departments:
-  - SCPCommand
   accessGroups:
   - AdminLevel5
 
@@ -70,12 +58,8 @@
   icon: "hudcommsofficer"
   supervisors: "Site Director"
   weight: 2
-  maxPlayers: 2
-  hidden: false
   setPreference: true
   startingGear: SCPCommunicationsOfficerGear
-  departments:
-  - SCPCommand
   accessGroups:
   - AdminLevel2
 
@@ -87,17 +71,16 @@
   icon: "ISD"
   supervisors: "Site Director"
   weight: 2
-  maxPlayers: 2
-  hidden: false
   setPreference: true
   startingGear: SCPISDDetectiveGear
-  departments:
-  - SCPCommand
   accessGroups:
   - SecurityLevel3
   - AdminLevel2
   access:
   - Research
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: job
   id: SCPEthicsCommittee
@@ -107,12 +90,8 @@
   icon: "hudecl"
   supervisors: "O5 Council"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPEthicsGear
-  departments:
-  - SCPCommand
   accessGroups:
   - AdminLevel4
 
@@ -124,12 +103,8 @@
   icon: "hudgoi"
   supervisors: "Site Director"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPGOCGear
-  departments:
-  - SCPCommand
   accessGroups:
   - AdminLevel3
   - SecurityLevel3
@@ -144,12 +119,8 @@
   icon: "hudcommsprogrammer"
   supervisors: "Communications Officer"
   weight: 5
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPCommsTechGear
-  departments:
-  - SCPCommand
   accessGroups:
   - AdminLevel1
   - TechLevel1
@@ -167,12 +138,8 @@
   icon: "hudchiefengineer"
   supervisors: "Site Director"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPEngDirectorGear
-  departments:
-  - SCPEngineering
   accessGroups:
   - AdminLevel3
   - TechLevel3
@@ -187,12 +154,8 @@
   icon: "hudassistantengineer"
   supervisors: "Engineering Director"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPAsstEngDirectorGear
-  departments:
-  - SCPEngineering
   accessGroups:
   - AdminLevel2
   - TechLevel3
@@ -205,12 +168,8 @@
   icon: "hudcontainmentengineer"
   supervisors: "Engineering Director"
   weight: 3
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPContainmentEngGear
-  departments:
-  - SCPEngineering
   accessGroups:
   - TechLevel2
   access:
@@ -224,12 +183,8 @@
   icon: "hudseniorengineer"
   supervisors: "Engineering Director"
   weight: 3
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPSeniorEngGear
-  departments:
-  - SCPEngineering
   accessGroups:
   - TechLevel3
 
@@ -241,12 +196,8 @@
   icon: "hudengineer"
   supervisors: "Senior Engineer"
   weight: 5
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPEngGear
-  departments:
-  - SCPEngineering
   accessGroups:
   - TechLevel2
 
@@ -258,12 +209,8 @@
   icon: "hudengineertrainee"
   supervisors: "Senior Engineer"
   weight: 7
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPJuniorEngGear
-  departments:
-  - SCPEngineering
   accessGroups:
   - TechLevel1
 
@@ -280,12 +227,8 @@
   icon: "hudchiefmedicalofficer"
   supervisors: "Site Director"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPMedDirectorGear
-  departments:
-  - SCPMedical
   accessGroups:
   - AdminLevel3
   - ScienceLevel3
@@ -300,12 +243,8 @@
   icon: "hudassistantmedicalofficer"
   supervisors: "Medical Director"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPAsstMedDirectorGear
-  departments:
-  - SCPMedical
   accessGroups:
   - AdminLevel2
   - ScienceLevel2
@@ -320,12 +259,8 @@
   icon: "hudsurgeon"
   supervisors: "Medical Director"
   weight: 2
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPSurgeonGear
-  departments:
-  - SCPMedical
   accessGroups:
   - ScienceLevel2
   access:
@@ -339,12 +274,8 @@
   icon: "hudpharmacist"
   supervisors: "Medical Director"
   weight: 3
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPChemistGear
-  departments:
-  - SCPMedical
   accessGroups:
   - ScienceLevel1
   access:
@@ -359,12 +290,8 @@
   icon: "hudcounselor"
   supervisors: "Medical Director"
   weight: 3
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPPsychiatristGear
-  departments:
-  - SCPMedical
   access:
   - Medical
 
@@ -376,12 +303,8 @@
   icon: "hudphysician"
   supervisors: "Medical Director"
   weight: 5
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPMedDoctorGear
-  departments:
-  - SCPMedical
   access:
   - Medical
 
@@ -393,12 +316,8 @@
   icon: "hudemt"
   supervisors: "Medical Director"
   weight: 5
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPEMTGear
-  departments:
-  - SCPMedical
   access:
   - Medical
 
@@ -410,12 +329,8 @@
   icon: "hudtraineemedicaltechnician"
   supervisors: "Medical Doctor"
   weight: 7
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPMedInternGear
-  departments:
-  - SCPMedical
   access:
   - Medical
 
@@ -432,12 +347,8 @@
   icon: "huddeckchief"
   supervisors: "Site Manager"
   weight: 2
-  maxPlayers: 2
-  hidden: false
   setPreference: true
   startingGear: SCPLogOfficerGear
-  departments:
-  - SCPLogistics
   accessGroups:
   - AdminLevel1
   access:
@@ -451,12 +362,8 @@
   icon: "hudsupplyassistant"
   supervisors: "Logistics Officer"
   weight: 5
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPLogSpecialistGear
-  departments:
-  - SCPLogistics
   access:
   - Maintenance
 
@@ -468,12 +375,8 @@
   icon: "hudhumanresources"
   supervisors: "Site Manager"
   weight: 7
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPOfficeWorkerGear
-  departments:
-  - SCPLogistics
 
 - type: job
   id: SCPBartender
@@ -483,12 +386,8 @@
   icon: "JobIconBartender"
   supervisors: "Logistics Officer"
   weight: 3
-  maxPlayers: 2
-  hidden: false
   setPreference: true
   startingGear: SCPBartenderGear
-  departments:
-  - SCPLogistics
   access:
   - Kitchen
 
@@ -500,12 +399,8 @@
   icon: "JobIconChaplain"
   supervisors: "Site Manager"
   weight: 2
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPChaplainGear
-  departments:
-  - SCPLogistics
 
 
 # ==========================================
@@ -520,12 +415,8 @@
   icon: "hudchiefscienceofficer"
   supervisors: "Site Director"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPRDGear
-  departments:
-  - SCPScience
   accessGroups:
   - ResearchDirector
 
@@ -537,12 +428,8 @@
   icon: "hudseniorresearcher"
   supervisors: "Research Director"
   weight: 2
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPSeniorResearcherGear
-  departments:
-  - SCPScience
   accessGroups:
   - ScienceLevel4
 
@@ -554,12 +441,8 @@
   icon: "hudroboticist"
   supervisors: "Research Director"
   weight: 2
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPSeniorRoboticsGear
-  departments:
-  - SCPScience
   accessGroups:
   - ScienceLevel3
   - TechLevel2
@@ -572,12 +455,8 @@
   icon: "hudscientist"
   supervisors: "Senior Researcher"
   weight: 5
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPResearcherGear
-  departments:
-  - SCPScience
   accessGroups:
   - ScienceLevel2
 
@@ -589,12 +468,8 @@
   icon: "hudroboticist"
   supervisors: "Senior Robotics Technician"
   weight: 5
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPRoboticsGear
-  departments:
-  - SCPScience
   accessGroups:
   - TechLevel1
   - ScienceLevel1
@@ -607,12 +482,8 @@
   icon: "hudresearchassistant"
   supervisors: "Researcher"
   weight: 7
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPResearcherAssociateGear
-  departments:
-  - SCPScience
   accessGroups:
   - ScienceLevel1
 
@@ -624,12 +495,8 @@
   icon: "hudassistantscienceofficer"
   supervisors: "Robotics Technician"
   weight: 7
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPJuniorRoboticsGear
-  departments:
-  - SCPScience
   accessGroups:
   - TechLevel1
 
@@ -646,12 +513,8 @@
   icon: "hudguardcommander"
   supervisors: "Site Director"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPGuardCommanderGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel5
 
@@ -663,12 +526,8 @@
   icon: "hudlczcommander"
   supervisors: "Guard Commander"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPLCZJuniorLtGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel4
 
@@ -680,12 +539,8 @@
   icon: "hudhczcommander"
   supervisors: "Guard Commander"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPHCZSeniorLtGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel4
 
@@ -697,12 +552,8 @@
   icon: "hudezcommander"
   supervisors: "Guard Commander"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPEZSupervisorGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel3
 
@@ -714,12 +565,8 @@
   icon: "hudraisa"
   supervisors: "Site Director"
   weight: 2
-  maxPlayers: 2
-  hidden: false
   setPreference: true
   startingGear: SCPRAISAGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel3
   access:
@@ -734,12 +581,8 @@
   icon: "hudlczsarge"
   supervisors: "LCZ Zone Junior Lieutenant"
   weight: 3
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPLCZSergeantGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel3
 
@@ -751,12 +594,8 @@
   icon: "hudhczsarge"
   supervisors: "HCZ Zone Senior Lieutenant"
   weight: 3
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPHCZSergeantGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel3
 
@@ -768,12 +607,8 @@
   icon: "hudezsenior"
   supervisors: "EZ Zone Supervisor"
   weight: 3
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPEZSeniorAgentGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel2
 
@@ -785,12 +620,8 @@
   icon: "hudlczguard"
   supervisors: "LCZ Sergeant"
   weight: 7
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPLCZGuardGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel2
 
@@ -802,12 +633,8 @@
   icon: "hudhczguard"
   supervisors: "HCZ Sergeant"
   weight: 5
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPHCZGuardGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel2
 
@@ -819,12 +646,8 @@
   icon: "hudezguard"
   supervisors: "EZ Senior Agent"
   weight: 7
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPEZAgentGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel1
 
@@ -836,12 +659,8 @@
   icon: "hudlczguard"
   supervisors: "LCZ Guard"
   weight: 10
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPLCZCadetGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel1
 
@@ -853,12 +672,8 @@
   icon: "hudhczguard"
   supervisors: "HCZ Guard"
   weight: 10
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPHCZPrivateGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel1
 
@@ -870,12 +685,8 @@
   icon: "hudezguard"
   supervisors: "EZ Senior Agent"
   weight: 10
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPEZProbGear
-  departments:
-  - SCPSecurity
   accessGroups:
   - SecurityLevel1
 
@@ -892,12 +703,8 @@
   icon: "hudittech"
   supervisors: "Site Director"
   weight: 1
-  maxPlayers: 1
-  hidden: false
   setPreference: true
   startingGear: SCPAICGear
-  departments:
-  - SCPSpecial
   accessGroups:
   - O5
 
@@ -909,12 +716,8 @@
   icon: "hudroboticist"
   supervisors: "Research Director"
   weight: 2
-  maxPlayers: -1
-  hidden: false
   setPreference: true
   startingGear: SCPRobotGear
-  departments:
-  - SCPSpecial
   accessGroups:
   - SecurityLevel5
   - ScienceLevel5
@@ -932,12 +735,8 @@
   icon: "hud05rep"
   supervisors: "The Foundation"
   weight: 0
-  maxPlayers: 5
-  hidden: true
   setPreference: false
   startingGear: SCPO5Gear
-  departments:
-  - SCPSpecial
   accessGroups:
   - O5
 
@@ -945,6 +744,9 @@
 # ==========================================
 # MOBILE TASK FORCE — HIDDEN, СПАВН ТІЛЬКИ АДМІНАМИ
 # ==========================================
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: job
   id: SCPMTFE11Commander
@@ -954,17 +756,16 @@
   icon: "MTF"
   supervisors: "O5 Council"
   weight: 0
-  maxPlayers: 1
-  hidden: true
   setPreference: false
   startingGear: SCPMTFE11CommanderGear
-  departments:
-  - SCPSpecial
   accessGroups:
   - SecurityLevel5
   access:
   - Command
   - Containment
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: job
   id: SCPMTFE11Lieutenant
@@ -974,16 +775,15 @@
   icon: "MTF"
   supervisors: "MTF E-11 Commander"
   weight: 0
-  maxPlayers: 2
-  hidden: true
   setPreference: false
   startingGear: SCPMTFE11LtGear
-  departments:
-  - SCPSpecial
   accessGroups:
   - SecurityLevel4
   access:
   - Containment
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: job
   id: SCPMTFE11Sergeant
@@ -993,14 +793,13 @@
   icon: "MTF"
   supervisors: "MTF E-11 Lieutenant"
   weight: 0
-  maxPlayers: -1
-  hidden: true
   setPreference: false
   startingGear: SCPMTFE11SgtGear
-  departments:
-  - SCPSpecial
   accessGroups:
   - SecurityLevel4
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: job
   id: SCPMTFE11Agent
@@ -1010,16 +809,15 @@
   icon: "MTF"
   supervisors: "MTF E-11 Sergeant"
   weight: 0
-  maxPlayers: -1
-  hidden: true
   setPreference: false
   startingGear: SCPMTFE11AgentGear
-  departments:
-  - SCPSpecial
   accessGroups:
   - SecurityLevel3
   access:
   - Containment
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: job
   id: SCPMTFNU7Commander
@@ -1029,16 +827,15 @@
   icon: "MTF"
   supervisors: "O5 Council"
   weight: 0
-  maxPlayers: 1
-  hidden: true
   setPreference: false
   startingGear: SCPMTFNU7CommanderGear
-  departments:
-  - SCPSpecial
   accessGroups:
   - SecurityLevel5
   access:
   - Command
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: job
   id: SCPMTFNU7Lieutenant
@@ -1048,14 +845,13 @@
   icon: "MTF"
   supervisors: "MTF Nu-7 Commander"
   weight: 0
-  maxPlayers: 2
-  hidden: true
   setPreference: false
   startingGear: SCPMTFNU7LtGear
-  departments:
-  - SCPSpecial
   accessGroups:
   - SecurityLevel4
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: job
   id: SCPMTFNU7Agent
@@ -1065,11 +861,11 @@
   icon: "MTF"
   supervisors: "MTF Nu-7 Lieutenant"
   weight: 0
-  maxPlayers: -1
-  hidden: true
   setPreference: false
   startingGear: SCPMTFNU7AgentGear
-  departments:
-  - SCPSpecial
   accessGroups:
   - SecurityLevel3
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+

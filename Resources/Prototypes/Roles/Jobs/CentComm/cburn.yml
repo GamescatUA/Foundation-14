@@ -10,7 +10,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: job
-  hidden: true
   id: CBURN
   name: job-name-cburn
   description: job-description-cburn
