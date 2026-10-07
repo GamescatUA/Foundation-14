@@ -3,3 +3,4 @@
   components:
   - type: PocketDimension
   - type: Map
+  - noSpawn: true
