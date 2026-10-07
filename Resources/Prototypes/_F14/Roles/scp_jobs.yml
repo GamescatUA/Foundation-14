@@ -744,9 +744,6 @@
 # ==========================================
 # MOBILE TASK FORCE — HIDDEN, СПАВН ТІЛЬКИ АДМІНАМИ
 # ==========================================
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
 
 - type: job
   id: SCPMTFE11Commander
