@@ -1261,24 +1261,24 @@
 # SPECIAL
 # ============================================
 
-- type: entity
-  id: SCPWeaponFlamethrowerF14
-  parent: BaseItem
-  name: Flamethrower
-  description: A heavy tactical flamethrower. High fuel weight reduces movement speed significantly.
-  components:
-  - type: Sprite
-    sprite: _F14/objects/Weapons/Guns/Special/flamethrower.rsi
-    layers:
-    - state: base
-  - type: Item
-    size: Huge
-    shape:
-    - 0,0,5,0
-  - type: HeldSpeedModifier
-    walkModifier: 0.65
-    sprintModifier: 0.65
-  - type: ClothingSpeedModifier
-    walkModifier: 0.65
-    sprintModifier: 0.65
-  - type: SolutionContainerManager
+# - type: entity
+#   id: SCPWeaponFlamethrowerF14
+#   parent: BaseItem
+#   name: Flamethrower
+#   description: A heavy tactical flamethrower. High fuel weight reduces movement speed significantly.
+#   components:
+#   - type: Sprite
+#     sprite: _F14/objects/Weapons/Guns/Special/flamethrower.rsi
+#     layers:
+#     - state: base
+#   - type: Item
+#     size: Huge
+#     shape:
+#     - 0,0,5,0
+#   - type: HeldSpeedModifier
+#     walkModifier: 0.65
+#     sprintModifier: 0.65
+#   - type: ClothingSpeedModifier
+#     walkModifier: 0.65
+#     sprintModifier: 0.65
+#   - type: SolutionContainerManager

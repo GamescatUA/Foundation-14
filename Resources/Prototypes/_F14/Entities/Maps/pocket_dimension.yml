@@ -1,6 +1,7 @@
 - type: entity
   id: PocketDimensionMapEntity
+  abstract: true
   components:
   - type: PocketDimension
   - type: Map
-  - noSpawn: true
+

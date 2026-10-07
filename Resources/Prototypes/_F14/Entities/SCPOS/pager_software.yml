@@ -1,13 +1,3 @@
-# ==========================================================
-# PAGER SOFTWARE STORE — Resources/Prototypes/_F14/Pager/pager_software.yml
-# ==========================================================
-# RequiredAccess посилається на теги з scp_access.yml.
-# Порожньо = доступно всім без обмежень.
-# Core: true = вже вбудована програма (безкоштовна, невидалювана).
-# Список зі скріншотів SCPOS, без AIC Maintenance Utility.
-# ==========================================================
-
-# ── ВБУДОВАНІ (вже в InstalledSoftware пейджера за замовчуванням) ──
 
 - type: pagerSoftware
   id: pager_chat
@@ -24,7 +14,6 @@
   core: true
 
 
-# ── ЗАГАЛЬНОДОСТУПНІ ────────────────────────────────────────
 
 - type: pagerSoftware
   id: pager_micro_arcade
@@ -70,12 +59,11 @@
 
 - type: pagerSoftware
   id: pager_personnel_manifest
-  name: Personnel Manifest
+  name: Personnel Manifestdisk
   description: Detailed extension of the built-in crew directory.
   diskCost: 3
 
 
-# ── ОБМЕЖЕНІ ДОСТУПОМ ────────────────────────────────────────
 
 - type: pagerSoftware
   id: pager_camera_monitoring

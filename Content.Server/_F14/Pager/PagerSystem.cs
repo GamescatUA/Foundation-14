@@ -1,6 +1,5 @@
 using System.Linq;
 using Content.Shared._F14.Pager;
-using Content.Shared._F14.SCPOS;
 using Content.Shared.Access.Components;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.IdentityManagement;
@@ -16,7 +15,6 @@ using Content.Server.Access.Systems;
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Radiation.Components;
 using Content.Server._Pirate.Banking;
-using Content.Shared._Pirate.Banking.Components;
 using Content.Shared._Pirate.Banking;
 using Content.Server.Chat.Managers;
 using Content.Shared.Chat;
@@ -542,7 +540,7 @@ public sealed class PagerSystem : EntitySystem
         var used = 0;
         foreach (var id in comp.InstalledSoftware)
         {
-            if (_proto.TryIndex<SCPOSSoftwarePrototype>(id, out var software))
+            if (_proto.TryIndex<PagerSoftwarePrototype>(id, out var software))
                 used += software.DiskCost;
         }
 
@@ -551,7 +549,7 @@ public sealed class PagerSystem : EntitySystem
 
     private void OnDownloadSoftware(EntityUid uid, PagerComponent comp, PagerDownloadSoftwareMessage args)
     {
-        if (!_proto.TryIndex<SCPOSSoftwarePrototype>(args.SoftwareId, out var software))
+        if (!_proto.TryIndex<PagerSoftwarePrototype>(args.SoftwareId, out var software))
             return;
 
         if (comp.InstalledSoftware.Contains(software.ID))
@@ -585,7 +583,7 @@ public sealed class PagerSystem : EntitySystem
 
     private void OnUninstallSoftware(EntityUid uid, PagerComponent comp, PagerUninstallSoftwareMessage args)
     {
-        if (!_proto.TryIndex<SCPOSSoftwarePrototype>(args.SoftwareId, out var software) || software.Core)
+        if (!_proto.TryIndex<PagerSoftwarePrototype>(args.SoftwareId, out var software) || software.Core)
             return;
 
         comp.InstalledSoftware.Remove(software.ID);

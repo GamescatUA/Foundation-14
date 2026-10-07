@@ -3,7 +3,6 @@ using Robust.Shared.GameObjects;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
-using Content.Shared._F14.SCPOS;
 
 namespace Content.Shared._F14.Pager;
 
