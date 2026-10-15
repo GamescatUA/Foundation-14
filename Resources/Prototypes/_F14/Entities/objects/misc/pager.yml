@@ -34,7 +34,7 @@
   description: A miniature earpiece with an integrated directional microphone. Links directly to an active pager.
   components:
   - type: Sprite
-    sprite: _F14/Objects/Devices/earpiece.rsi
+    sprite: _F14/objects/Devices/earpiece.rsi
     layers:
     - state: icon
   - type: Item
