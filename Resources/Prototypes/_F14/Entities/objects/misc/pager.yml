@@ -5,7 +5,7 @@
   description: Modified for foundation needs paging device. Receives network alerts and supports encrypted voice transmissions when paired with an earpiece.
   components:
   - type: Sprite
-    sprite: _F14/Objects/Devices/pager.rsi
+    sprite: _F14/objects/Devices/pager.rsi
     layers:
     - state: icon
   - type: Item
