@@ -1,58 +1,58 @@
-- type: entity
-  id: UIUDocumentScanner
-  parent: BaseItem
-  name: portable optical scanner
-  description: A covert field scanner capable of digitizing and printing facsimiles of classified Foundation documents without disturbing the original.
-  components:
-  - type: Sprite
-    sprite: Objects/Devices/handheld_mass_scanner.rsi
-    state: icon
-  - type: Item
-    size: Small
-  - type: DocumentScanner
-    scanDuration: 4.0
-    maxScans: 5
+# - type: entity
+#   id: UIUDocumentScanner
+#   parent: BaseItem
+#   name: portable optical scanner
+#   description: A covert field scanner capable of digitizing and printing facsimiles of classified Foundation documents without disturbing the original.
+#   components:
+#   - type: Sprite
+#     sprite: Objects/Devices/handheld_mass_scanner.rsi
+#     state: icon
+#   - type: Item
+#     size: Small
+#   - type: DocumentScanner
+#     scanDuration: 4.0
+#     maxScans: 5
 
-- type: entity
-  id: ClassifiedDocumentBaseF14
-  parent: BaseItem
-  name: classified Foundation dossier
-  description: A sealed red folder marked 'LEVEL 4 - EYES ONLY'. Contains sensitive operational records.
-  abstract: true
-  components:
-  - type: Sprite
-    sprite: _F14/objects/misc/scp_documents.rsi
-    layers:
-    - state: base
-  - type: Item
-    size: Small
-  - type: ClassifiedDocument
-    copyPrototype: ScannedDocumentCopyF14
+# - type: entity
+#   id: ClassifiedDocumentBaseF14
+#   parent: BaseItem
+#   name: classified Foundation dossier
+#   description: A sealed red folder marked 'LEVEL 4 - EYES ONLY'. Contains sensitive operational records.
+#   abstract: true
+#   components:
+#   - type: Sprite
+#     sprite: _F14/objects/misc/scp_documents.rsi
+#     layers:
+#     - state: base
+#   - type: Item
+#     size: Small
+#   - type: ClassifiedDocument
+#     copyPrototype: ScannedDocumentCopyF14
 
-- type: entity
-  id: ClassifiedDocumentEthicsViolationF14
-  parent: ClassifiedDocumentBaseF14
-  name: "Ethics Committee suppressed report #409"
-  description: "A classified folder detailing illegal detention of federal citizens designated as Class-D personnel."
-  components:
-  - type: Sprite
-    sprite: scp_documents.rsi
-    layers:
-    - state: base
-  - type: ClassifiedDocument
-    documentId: "doc_ethics_409"
-    copyPrototype: ScannedDocumentCopyF14
+# - type: entity
+#   id: ClassifiedDocumentEthicsViolationF14
+#   parent: ClassifiedDocumentBaseF14
+#   name: "Ethics Committee suppressed report #409"
+#   description: "A classified folder detailing illegal detention of federal citizens designated as Class-D personnel."
+#   components:
+#   - type: Sprite
+#     sprite: scp_documents.rsi
+#     layers:
+#     - state: base
+#   - type: ClassifiedDocument
+#     documentId: "doc_ethics_409"
+#     copyPrototype: ScannedDocumentCopyF14
 
-- type: entity
-  id: ScannedDocumentCopyF14
-  parent: BaseItem
-  name: encrypted document facsimile
-  description: A high-resolution micro-film and thermal printout containing duplicated classified Foundation intelligence. Ready for UIU extraction.
-  components:
-  - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
-    layers:
-    - state: paper_words
-  - type: Item
-    size: Tiny
-  - type: ScannedIntel
+# - type: entity
+#   id: ScannedDocumentCopyF14
+#   parent: BaseItem
+#   name: encrypted document facsimile
+#   description: A high-resolution micro-film and thermal printout containing duplicated classified Foundation intelligence. Ready for UIU extraction.
+#   components:
+#   - type: Sprite
+#     sprite: Objects/Misc/bureaucracy.rsi
+#     layers:
+#     - state: paper_words
+#   - type: Item
+#     size: Tiny
+#   - type: ScannedIntel

@@ -1,87 +1,87 @@
-- type: entity
-  id: ClothingUniformJumpsuitUIUChameleon
-  parent: ClothingUniformJumpsuitChameleon
-  name: UIU chameleon jumpsuit
-  description: A micro-fiber nanofabric jumpsuit capable of re-weaving its appearance into any standard facility uniform.
-  components:
-  - type: ChameleonClothing
-    slot: [innerclothing]
-    default: ClothingUniformJumpsuitUIU
+# - type: entity
+#   id: ClothingUniformJumpsuitUIUChameleon
+#   parent: ClothingUniformJumpsuitChameleon
+#   name: UIU chameleon jumpsuit
+#   description: A micro-fiber nanofabric jumpsuit capable of re-weaving its appearance into any standard facility uniform.
+#   components:
+#   - type: ChameleonClothing
+#     slot: [innerclothing]
+#     default: ClothingUniformJumpsuitUIU
 
-- type: entity
-  id: ClothingOuterUIUChameleon
-  parent: ClothingOuterChameleon
-  name: UIU chameleon jacket
-  description: Tactical undercover outerwear fitted with dynamic cloaking threads, mimicking standard labcoats, vests, and jackets.
-  components:
-  - type: ChameleonClothing
-    slot: [outerclothing]
-    default: ClothingOuterCoatSCPUIU
+# - type: entity
+#   id: ClothingOuterUIUChameleon
+#   parent: ClothingOuterChameleon
+#   name: UIU chameleon jacket
+#   description: Tactical undercover outerwear fitted with dynamic cloaking threads, mimicking standard labcoats, vests, and jackets.
+#   components:
+#   - type: ChameleonClothing
+#     slot: [outerclothing]
+#     default: ClothingOuterCoatSCPUIU
 
-- type: entity
-  id: ClothingShoesUIUChameleon
-  parent: ClothingShoesChameleon
-  name: UIU chameleon shoes
-  description: Adaptive polymers in the soles and finish mimic any facility footwear while retaining silent grip.
-  components:
-  - type: ChameleonClothing
-    slot: [FEET]
-    default: ClothingShoesBootsCombat
+# - type: entity
+#   id: ClothingShoesUIUChameleon
+#   parent: ClothingShoesChameleon
+#   name: UIU chameleon shoes
+#   description: Adaptive polymers in the soles and finish mimic any facility footwear while retaining silent grip.
+#   components:
+#   - type: ChameleonClothing
+#     slot: [FEET]
+#     default: ClothingShoesBootsCombat
 
-- type: entity
-  id: ClothingHandsGlovesUIUChameleon
-  parent: ClothingHandsBase
-  name: UIU chameleon gloves
-  description: Smart-mesh gloves capable of disguising themselves as sterile latex, work gloves, or standard leather without leaving fingerprints.
-  components:
-  - type: Sprite
-    sprite: Clothing/Hands/Gloves/combat.rsi
-  - type: Clothing
-    sprite: Clothing/Hands/Gloves/combat.rsi
-  - type: ChameleonClothing
-    slot: [gloves]
-    default: ClothingHandsGlovesCombat
-  - type: ActivatableUI
-    key: enum.ChameleonUiKey.Key
-  - type: UserInterface
-    interfaces:
-      enum.ChameleonUiKey.Key:
-        type: ChameleonBoundUserInterface
+# - type: entity
+#   id: ClothingHandsGlovesUIUChameleon
+#   parent: ClothingHandsBase
+#   name: UIU chameleon gloves
+#   description: Smart-mesh gloves capable of disguising themselves as sterile latex, work gloves, or standard leather without leaving fingerprints.
+#   components:
+#   - type: Sprite
+#     sprite: Clothing/Hands/Gloves/combat.rsi
+#   - type: Clothing
+#     sprite: Clothing/Hands/Gloves/combat.rsi
+#   - type: ChameleonClothing
+#     slot: [gloves]
+#     default: ClothingHandsGlovesCombat
+#   - type: ActivatableUI
+#     key: enum.ChameleonUiKey.Key
+#   - type: UserInterface
+#     interfaces:
+#       enum.ChameleonUiKey.Key:
+#         type: ChameleonBoundUserInterface
 
-- type: entity
-  id: ClothingHeadUIUChameleon
-  parent: ClothingHeadHatChameleon
-  name: UIU chameleon headwear
-  description: A micro-projector fitted headwear capable of morphing into hardhats, berets, caps, and security helmets on command.
-  components:
-  - type: ChameleonClothing
-    slot: [head]
-    default: ClothingHeadHatUIUCap
+# - type: entity
+#   id: ClothingHeadUIUChameleon
+#   parent: ClothingHeadHatChameleon
+#   name: UIU chameleon headwear
+#   description: A micro-projector fitted headwear capable of morphing into hardhats, berets, caps, and security helmets on command.
+#   components:
+#   - type: ChameleonClothing
+#     slot: [head]
+#     default: ClothingHeadHatUIUCap
 
-- type: entity
-  id: UIUCameraLooper
-  parent: BaseItem
-  name: camera looper bypass device
-  description: A covert signal-injection tap that feeds a static pre-recorded loop to a CCTV camera while keeping its network status online.
-  components:
-  - type: Sprite
-    sprite: Objects/Devices/encryptionkey.rsi
-    state: crypt_silver
-  - type: Item
-    size: Small
-  - type: CameraLooper
-    hackDelay: 3.5
-    loopDuration: 90.0
-    maxUses: 3
+# - type: entity
+#   id: UIUCameraLooper
+#   parent: BaseItem
+#   name: camera looper bypass device
+#   description: A covert signal-injection tap that feeds a static pre-recorded loop to a CCTV camera while keeping its network status online.
+#   components:
+#   - type: Sprite
+#     sprite: Objects/Devices/encryptionkey.rsi
+#     state: crypt_silver
+#   - type: Item
+#     size: Small
+#   - type: CameraLooper
+#     hackDelay: 3.5
+#     loopDuration: 90.0
+#     maxUses: 3
 
-- type: entity
-  id: SCPPagerUIU
-  parent: SCPPager
-  name: UIU encrypted field pager
-  suffix: UIU Spy
-  description: A modified Foundation pager with a hardware-spliced quantum transceiver and pre-installed UIU intrusion software.
-  components:
-  - type: Pager
-    installedSoftware:
-    - uiu_siphon_protocol
-    - uiu_uplink_relay
+# - type: entity
+#   id: SCPPagerUIU
+#   parent: SCPPager
+#   name: UIU encrypted field pager
+#   suffix: UIU Spy
+#   description: A modified Foundation pager with a hardware-spliced quantum transceiver and pre-installed UIU intrusion software.
+#   components:
+#   - type: Pager
+#     installedSoftware:
+#     - uiu_siphon_protocol
+#     - uiu_uplink_relay
