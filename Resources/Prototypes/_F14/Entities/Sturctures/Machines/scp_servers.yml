@@ -1,97 +1,97 @@
-- type: entity
-  id: BaseMachineSCPServer
-  parent: BaseMachinePowered
-  name: Foundation server rack
-  description: A heavy-duty rack-mounted server cluster storing internal facility logs and research telemetry.
-  abstract: true
-  components:
-  - type: Sprite
-    sprite: _F14/Structures/scp_servers.rsi
-    snapCardinals: true
-    layers:
-    - state: server_1
-  - type: Transform
-    anchored: true
-    noRot: false
-  - type: Physics
-    bodyType: Static
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.4,-0.4,0.4,0.4"
-        density: 350
-        mask:
-        - MachineMask
-        layer:
-        - MachineLayer
-  - type: Anchorable
-    delay: 5.0
-  - type: Pullable
-  - type: Rotatable
-  - type: InteractionOutline
-  - type: ApcPowerReceiver
-    powerLoad: 300
-  - type: PointLight
-    radius: 1.4
-    energy: 1.2
-    color: "#e6b800"
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: Metallic
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 300
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
+# - type: entity
+#   id: BaseMachineSCPServer
+#   parent: BaseMachinePowered
+#   name: Foundation server rack
+#   description: A heavy-duty rack-mounted server cluster storing internal facility logs and research telemetry.
+#   abstract: true
+#   components:
+#   - type: Sprite
+#     sprite: _F14/Structures/scp_servers.rsi
+#     snapCardinals: true
+#     layers:
+#     - state: server_1
+#   - type: Transform
+#     anchored: true
+#     noRot: false
+#   - type: Physics
+#     bodyType: Static
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PhysShapeAabb
+#           bounds: "-0.4,-0.4,0.4,0.4"
+#         density: 350
+#         mask:
+#         - MachineMask
+#         layer:
+#         - MachineLayer
+#   - type: Anchorable
+#     delay: 5.0
+#   - type: Pullable
+#   - type: Rotatable
+#   - type: InteractionOutline
+#   - type: ApcPowerReceiver
+#     powerLoad: 300
+#   - type: PointLight
+#     radius: 1.4
+#     energy: 1.2
+#     color: "#e6b800"
+#   - type: Damageable
+#     damageContainer: StructuralInorganic
+#     damageModifierSet: Metallic
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 300
+#       behaviors:
+#       - !type:DoActsBehavior
+#         acts: [ "Destruction" ]
+#       - !type:PlaySoundBehavior
+#         sound:
+#           collection: MetalBreak
 
 
-- type: entity
-  id: SCPServerRackStandard
-  parent: BaseMachineSCPServer
-  name: Foundation server rack
-  suffix: Type 1
-  components:
-  - type: Sprite
-    layers:
-    - state: server_1
+# - type: entity
+#   id: SCPServerRackStandard
+#   parent: BaseMachineSCPServer
+#   name: Foundation server rack
+#   suffix: Type 1
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: server_1
 
-- type: entity
-  id: SCPServerRackLeft
-  parent: BaseMachineSCPServer
-  name: Foundation server rack
-  suffix: Type 2
-  components:
-  - type: Sprite
-    layers:
-    - state: server_2
+# - type: entity
+#   id: SCPServerRackLeft
+#   parent: BaseMachineSCPServer
+#   name: Foundation server rack
+#   suffix: Type 2
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: server_2
 
-- type: entity
-  id: SCPServerRackRight
-  parent: BaseMachineSCPServer
-  name: Foundation server rack
-  suffix: Type 3
-  components:
-  - type: Sprite
-    layers:
-    - state: server_3
+# - type: entity
+#   id: SCPServerRackRight
+#   parent: BaseMachineSCPServer
+#   name: Foundation server rack
+#   suffix: Type 3
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: server_3
 
-- type: entity
-  id: MachineBlackServerF14
-  parent: BaseMachineSCPServer
-  name: "Project 'Apocrypha' server mainframe"
-  description: "An isolated Foundation data cluster containing records of unconstitutional jurisdiction breaches and classified black operations."
-  suffix: Black Server
-  components:
-  - type: Sprite
-    layers:
-    - state: black_server
-  - type: BlackServer
+# - type: entity
+#   id: MachineBlackServerF14
+#   parent: BaseMachineSCPServer
+#   name: "Project 'Apocrypha' server mainframe"
+#   description: "An isolated Foundation data cluster containing records of unconstitutional jurisdiction breaches and classified black operations."
+#   suffix: Black Server
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: black_server
+#   - type: BlackServer
 
