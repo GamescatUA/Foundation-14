@@ -1,6 +1,67 @@
 # ============================================
 # PISTOLS & REVOLVERS
 # ============================================
+- type: entity
+  name: USP-S
+  parent: BaseWeaponPistol
+  id: WeaponPistolUSPS
+  description: A compact .45 caliber handgun equipped with an integrated tactical suppressor. Small enough to be concealed inside boots or pockets.
+  components:
+  - type: Sprite
+    sprite: _F14/Objects/Weapons/Guns/Pistols/usps_x48.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - sprite: _F14/Objects/Weapons/Guns/Pistols/usps_x48.rsi
+      state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
+    sprite: _F14/Objects/Weapons/Guns/Pistols/usps.rsi
+  - type: Clothing
+    sprite: _F14/Objects/Weapons/Guns/Pistols/usps.rsi
+    quickEquip: false
+    slots:
+    - Belt
+    - suitStorage
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Appearance
+  - type: Gun
+    fireRate: 4
+    minAngle: 2
+    maxAngle: 7
+    angleIncrease: 1.5
+    angleDecay: 8
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/pistol_cock.ogg
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot {}
+      gun_chamber: !type:ContainerSlot {}
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineUSPS
+        insertSound:
+          path: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound:
+          path: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineUSPS
+
 
 - type: entity
   id: SCPWeaponPistolFiveSeven

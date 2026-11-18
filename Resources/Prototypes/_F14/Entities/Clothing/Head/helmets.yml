@@ -53,7 +53,7 @@
       head:
       - state: equipped-HELMET
   - type: NightVision
-    isEquipment: true 
+    isEquipment: true
   - type: ItemToggle
     predictable: false
   - type: ToggleableVisuals
@@ -77,7 +77,7 @@
   - type: InstantAction
     event: !type:ToggleActionEvent
 
-    
+
 - type: entity
   parent: [ClothingHeadHelmetBase, BaseSecurityContraband, ClothingHeadHelmetBaseFoldable] # Goob - ClothingHeadHelmetBaseFoldable
   id: HeavyMTFHelmet
@@ -181,7 +181,7 @@
   #  layers:
   #    Hair: HEAD
   - type: NightVision
-    isEquipment: true 
+    isEquipment: true
   - type: ItemToggle
     predictable: false
 
@@ -220,7 +220,7 @@
   #  layers:
   #    Hair: HEAD
   - type: NightVision
-    isEquipment: true 
+    isEquipment: true
   - type: ItemToggle
     predictable: false
 
@@ -395,8 +395,40 @@
   #  layers:
   #    Hair: HEAD
   - type: NightVision
-    isEquipment: true 
+    isEquipment: true
   - type: ItemToggle
     predictable: false
 
-
+- type: entity
+  parent: [ClothingHeadHelmetBase, BaseSecurityContraband, ClothingHeadHelmetBaseFoldable] # Goob - ClothingHeadHelmetBaseFoldable
+  id: SCPPentagramHelmet
+  name: Pentagram  Helmet
+  description: Helmet based on ACH and modified for anomalous combat. You can fell freedom invading your brains.
+  components:
+  - type: Sprite
+    sprite: _F14/Clothing/Head/Helmets/pentagram.rsi
+  - type: Clothing
+    sprite: _F14/Clothing/Head/Helmets/pentagram.rsi
+  - type: Armor
+    coverage:
+    - Head
+    traumaDeductions:
+      Dismemberment: 0.3
+      OrganDamage: 0.3
+      BoneDamage: 0.3
+      VeinsDamage: 0
+      NerveDamage: 0
+    modifiers:
+      coefficients:
+        Blunt: 0.30
+        Slash: 0.30
+        Piercing: 0.30
+        Heat: 0.30
+        Radiation: 0.75
+        Caustic: 0.75
+  - type: ExplosionResistance
+    damageCoefficient: 0.75
+  - type: FaceHuggerBlocker # Goobstation
+  #- type: HideLayerClothing    #Goobstation
+  #  layers:
+  #    Hair: HEAD

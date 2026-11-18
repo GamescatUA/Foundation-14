@@ -866,3 +866,52 @@
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
 
+# ==========================================
+# ANTAGS
+# ==========================================
+
+- type: entity
+  id: MobHumanUIUSpy
+  parent: MobHuman
+  name: UIU Special Agent
+  suffix: UIU Spy Antag
+  components:
+  - type: UIUSpy
+  - type: Loadout
+    prototypes: [ SCPUIUSpyGear ]
+
+- type: entity
+  id: MobHumanPentagramOperative
+  parent: MobHuman
+  name: PENTAGRAM Strike Operative
+  suffix: PENTAGRAM Assault Operative
+  components:
+  - type: Loadout
+    prototypes: [ SCPPentagramAssaultGear ]
+
+- type: entity
+  id: MobHumanPentagramLeader
+  parent: MobHuman
+  name: PENTAGRAM Strike Commander
+  suffix: PENTAGRAM Assault Leader
+  components:
+  - type: Loadout
+    prototypes: [ SCPPentagramAssaultLeaderGear ]
+
+- type: entity
+  id: MobHumanPentagramAuditor
+  parent: MobHuman
+  name: PENTAGRAM Security Escort
+  suffix: PENTAGRAM Audit Escort
+  components:
+  - type: Loadout
+    prototypes: [ SCPPentagramAuditorGear ]
+
+- type: entity
+  id: MobHumanPentagramAuditorLeader
+  parent: MobHuman
+  name: PENTAGRAM Lead Federal Auditor
+  suffix: PENTAGRAM Audit Leader
+  components:
+  - type: Loadout
+    prototypes: [ SCPPentagramAuditorLeaderGear ]

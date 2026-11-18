@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: SCPClothingEyesNightVisionGoggles
+  name: night vision goggles
+  description: Now you can see in the dark!
+  components:
+  - type: Sprite
+    sprite: _F14/Clothing/Eyes/night_vision.rsi
+  - type: Clothing
+    sprite: _F14/Clothing/Eyes/night_vision.rsi
+  - type: NightVision
+    flashDurationMultiplier: 2
+    isEquipment: true
+  - type: IdentityBlocker
+    coverage: EYES

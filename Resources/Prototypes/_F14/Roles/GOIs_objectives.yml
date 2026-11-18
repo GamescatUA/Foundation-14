@@ -1,0 +1,41 @@
+- type: entity
+  id: BaseUIUSpyObjective
+  parent: BaseObjective
+  abstract: true
+  components:
+  - type: Objective
+    issuer: "Federal Bureau of Investigation — UIU"
+    difficulty: 2
+- type: entity
+  id: UIUSiphonDataObjective
+  parent: BaseUIUSpyObjective
+  name: Exfiltrate Project 'Apocrypha' Intelligence
+  description: Locate the Foundation's Black Server mainframe or classified Level-4 dossiers and download the intelligence using your UIU Pager or Optical Scanner.
+  components:
+  - type: Objective
+    icon:
+      sprite: Objects/Devices/encryptionkey.rsi
+      state: crypt_silver
+  - type: UIUSiphonObjective
+- type: entity
+  id: UIUTransmitUplinkObjective
+  parent: BaseUIUSpyObjective
+  name: Broadcast Extraction Telemetry to PENTAGRAM
+  description: Use the Uplink-Relay software on your UIU Pager to transmit the stolen intelligence and facility coordinates to orbital command.
+  components:
+  - type: Objective
+    icon:
+      sprite: Objects/Devices/handheld_mass_scanner.rsi
+      state: icon
+  - type: UIUUplinkObjective
+- type: entity
+  id: UIUSurviveObjective
+  parent: BaseUIUSpyObjective
+  name: Survive the Operation
+  description: Ensure you are alive at the end of the shift so you can testify before the Federal Oversight Committee.
+  components:
+  - type: Objective
+    icon:
+      sprite: Clothing/Uniforms/Jumpsuit/scientist.rsi
+      state: icon
+  - type: UIUSurviveObjective

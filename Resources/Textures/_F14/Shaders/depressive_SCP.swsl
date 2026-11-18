@@ -1,0 +1,37 @@
+light_mode unshaded;
+
+uniform sampler2D SCREEN_TEXTURE;
+
+// SCP:CB — Чистий нейтральний пресет (трішки більше кольору)
+uniform highp float desaturation = 0.30; // Було 0.52: тепер трохи менш сіре, але все ще похмуре
+uniform highp float gamma = 1.12;        // Комфортна видимість у темних зонах
+uniform highp float acesMix = 0.40;      // М'який кіношний контраст яскравості
+uniform highp float shadowLift = 0.02;   // Підтримка деталей у тінях
+
+void fragment() {
+    highp vec2 uv = FRAGCOORD.xy * SCREEN_PIXEL_SIZE;
+    highp vec4 hdrV4 = zTextureSpec(SCREEN_TEXTURE, uv);
+    highp vec3 color = max(hdrV4.rgb, vec3(0.0001));
+
+    color *= vec3(0.95, 1.0, 1.02);
+
+    //Luminance
+    highp float luma = max(dot(color, vec3(0.299, 0.587, 0.114)), 0.0001);
+
+    // desaturation
+    highp vec3 desaturatedColor = mix(color, vec3(luma), desaturation);
+
+    // luma
+    highp float acesLuma = (luma * (luma * 2.51 + 0.03)) / (luma * (2.43 * luma + 0.59) + 0.14);
+    highp float targetLuma = mix(luma, acesLuma, acesMix);
+
+    highp float correction = 1.0 / max(gamma, 0.01);
+    targetLuma = pow(clamp(targetLuma, 0.0, 1.0), correction);
+
+    highp vec3 finalColor = desaturatedColor * (targetLuma / luma);
+
+    // shadows
+    finalColor += vec3(shadowLift) * smoothstep(0.01, 0.25, luma);
+
+    COLOR = vec4(clamp(finalColor, 0.0, 1.0), hdrV4.a);
+}

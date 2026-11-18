@@ -1,6 +1,24 @@
 # ============================================
 # PISTOL & REVOLVER MAGAZINES
 # ============================================
+- type: entity
+  id: MagazineUSPS
+  name: USP-S magazine (.45 tactical)
+  parent: BaseItem
+  description: A 12-round tactical magazine for the USP-S pistol.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi
+    layers:
+    - state: base
+  - type: Item
+    size: Small
+  - type: BallisticAmmoProvider
+    proto: Cartridge45ACP
+    capacity: 12
+  - type: Tag
+    tags:
+    - MagazineUSPS
 
 - type: entity
   id: MagazineFiveSeven
@@ -311,9 +329,10 @@
     - MagazineM2Browning
 
 # ============================================
-# TAG REGISTRY
+# TAGS
 # ============================================
-
+- type: Tag
+  id: MagazineUSPS
 - type: Tag
   id: MagazineFiveSeven
 - type: Tag

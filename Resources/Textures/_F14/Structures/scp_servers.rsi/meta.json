@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Foundation-14",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "server_1",
+      "directions": 4
+    },
+    {
+      "name": "server_2",
+      "directions": 4
+    },
+    {
+      "name": "server_3",
+      "directions": 4
+    },
+    {
+      "name": "black_server",
+      "directions": 4
+    }
+  ]
+}

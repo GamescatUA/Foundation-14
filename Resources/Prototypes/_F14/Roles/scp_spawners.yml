@@ -506,3 +506,69 @@
   components:
   - type: SpawnPoint
     job_id: SCPMTFNU7Agent
+# ==========================================
+# Antags
+# ==========================================
+- type: entity
+  id: SpawnPointGhostUIUSpy
+  name: ghost role spawn point
+  suffix: UIU Infiltrator
+  parent: MarkerBase
+  components:
+  - type: GhostRole
+    name: "UIU Undercover Agent"
+    description: "Infiltrate the Foundation facility disguised as staff. Locate the Project 'Apocrypha' Black Server or classified dossiers, siphon the data using your pager, and transmit the coordinates to PENTAGRAM."
+    rules: "You are a covert federal agent. Avoid open firefights unless compromised. Use your Chameleon suit and Camera Looper to remain undetected."
+    raffle:
+      settings: default
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanUIUSpy
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: Objects/Devices/encryptionkey.rsi
+      state: crypt_silver
+
+- type: entity
+  id: SpawnPointGhostPentagramAssault
+  name: ghost role spawn point
+  suffix: PENTAGRAM Strike Team
+  parent: MarkerBase
+  components:
+  - type: GhostRole
+    name: "PENTAGRAM Occult Strike Operative"
+    description: "Surgical Intervention. Breach the facility, locate the 'Apocrypha' Black Server, unbolt it with a wrench, and drag the physical server rack back to extraction."
+    rules: "Engage armed security forces only. Avoid executing unarmed civilian staff."
+    raffle:
+      settings: default
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanPentagramOperative
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi
+      state: base
+
+- type: entity
+  id: SpawnPointGhostPentagramAuditor
+  name: ghost role spawn point
+  suffix: PENTAGRAM Federal Auditor
+  parent: MarkerBase
+  components:
+  - type: GhostRole
+    name: "PENTAGRAM Federal Inspector"
+    description: "Federal Audit. Enter the facility under executive warrant, locate the UIU Agent as a key witness, and place a Federal Confiscation Seal on the Black Server."
+    rules: "Do not open fire unless Foundation Security attacks your inspection team first."
+    raffle:
+      settings: default
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanPentagramAuditor
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: Objects/Misc/bureaucracy.rsi
+      state: folder_red
+

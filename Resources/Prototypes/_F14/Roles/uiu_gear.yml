@@ -1,0 +1,107 @@
+- type: startingGear
+  id: SCPUIUSpyGear
+  equipment:
+    head: ClothingHeadUIUChameleon
+    jumpsuit: ClothingUniformJumpsuitUIUChameleon
+    outerClothing: ClothingOuterUIUChameleon
+    shoes: ClothingShoesUIUChameleon
+    gloves: ClothingHandsGlovesUIUChameleon
+    pocket1: WeaponPistolUSPS
+    belt: UIUDocumentScanner
+    id: IDCardSCPScience1
+    ears: ClothingHeadsetGrey
+    back: ClothingBackpackScience
+  storage:
+    back:
+    - UIUCameraLooper
+    - MagazineUSPS
+    - MagazineUSPS
+
+- type: startingGear
+  id: SCPPentagramAssaultGear
+  equipment:
+    head: SCPPentagramHelmet
+    eyes: SCPClothingEyesNightVisionGoggles
+    outerClothing: SCPPentagramArmor
+    jumpsuit: ClothingUniformJumpsuitOperative
+    shoes: ClothingShoesBootsCombat
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltCentCom
+    back: ClothingBackpackSecurity
+    belt: ClothingBeltMilitaryWebbing
+    id: IDCardSCPO5
+    pocket1: WeaponPistolUSPS
+    pocket2: Wrench
+  storage:
+    back:
+    - SCPWeaponGunScarH
+    - MagazineScarH
+    - MagazineScarH
+    - MagazineScarH
+    - MagazineUSPS
+
+- type: startingGear
+  id: SCPPentagramAssaultLeaderGear
+  equipment:
+    head: SCPPentagramBeret
+    eyes: SCPClothingEyesNightVisionGoggles
+    outerClothing: SCPPentagramArmor
+    jumpsuit: ClothingUniformJumpsuitOperative
+    shoes: ClothingShoesBootsCombat
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltCentCom
+    back: ClothingBackpackSecurity
+    belt: ClothingBeltMilitaryWebbing
+    id: IDCardSCPO5
+    pocket1: WeaponPistolUSPS
+    pocket2: Wrench
+  storage:
+    back:
+    - SCPWeaponGunM16
+    - MagazineSTANAG556
+    - MagazineSTANAG556
+    - MagazineSTANAG556
+    - MagazineSTANAG556
+    - MagazineUSPS
+
+- type: startingGear
+  id: SCPPentagramAuditorGear
+  equipment:
+    head: SCPPentagramHelmet
+    eyes: SCPClothingEyesNightVisionGoggles
+    outerClothing: SCPPentagramArmor
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+    shoes: ClothingShoesBootsCombat
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltCentCom
+    back: ClothingBackpackSecurity
+    id: IDCardSCPO5
+    pocket1: WeaponPistolUSPS
+    pocket2: MagazineUSPS
+  storage:
+    back:
+    - SCPWeaponGunM16
+    - MagazineSTANAG556
+    - MagazineSTANAG556
+    - MagazineSTANAG556
+
+- type: startingGear
+  id: SCPPentagramAuditorLeaderGear
+  equipment:
+    head: SCPPentagramBeret
+    eyes: SCPClothingEyesNightVisionGoggles
+    outerClothing: SCPPentagramArmor
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+    shoes: ClothingShoesBootsCombat
+    gloves: ClothingHandsGlovesCombat
+    ears: ClothingHeadsetAltCentCom
+    back: ClothingBackpackSecurity
+    id: IDCardSCPO5
+    pocket1: WeaponPistolUSPS
+    pocket2: MagazineUSPS
+  storage:
+    back:
+    - SCPWeaponGunM16
+    - MagazineSTANAG556
+    - MagazineSTANAG556
+    - MagazineSTANAG556

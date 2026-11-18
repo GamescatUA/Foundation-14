@@ -1,0 +1,70 @@
+- type: entity
+  parent: BaseStructureDynamic
+  id: SCPFilingCabinet
+  name: filing cabinet
+  description: A sturdy wooden-paneled cabinet for storing classified documents and folders.
+  components:
+  - type: Sprite
+    sprite: _F14/Structures/Furniture/Filing_cabinet.rsi
+    layers:
+    - state: cabinet
+      map: [ "base" ]
+  - type: Icon
+    sprite: _F14/Structures/Furniture/Filing_cabinet.rsi
+    state: cabinet
+  - type: Storage
+    grid:
+    - 0,0,7,3
+    whitelist:
+      components:
+      - Paper
+      - Folder
+      - Book
+      - Clipboard
+      - Photo
+      tags:
+      - Document
+      - Write
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: cabinet-open }
+          False: { state: cabinet }
+  - type: PaperLabel
+  - type: PlaceableSurface
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.35,-0.35,0.35,0.35"
+        density: 150
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak

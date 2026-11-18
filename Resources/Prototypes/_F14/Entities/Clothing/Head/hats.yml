@@ -35,7 +35,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatUIUCap
   name: UIU cap
-  description: UIU cap, it looks old, can they buy a new one?
+  description: UIU cap, it looks old, can't  they buy a new one?
   components:
   - type: Sprite
     sprite: _F14/Clothing/Head/Hats/UIU.rsi
@@ -86,3 +86,13 @@
   - type: Clothing
     sprite: _F14/Clothing/Head/Hats/epsilon11.rsi
 
+- type: entity
+  parent: ClothingHeadBase
+  id: SCPPentagramBeret
+  name: Epsilon-11 beret
+  description: Black beret. If you see this, you're most likely don't pay your taxes
+  components:
+  - type: Sprite
+    sprite: _F14/Clothing/Head/Hats/pentagram.rsi
+  - type: Clothing
+    sprite: _F14/Clothing/Head/Hats/pentagram.rsi

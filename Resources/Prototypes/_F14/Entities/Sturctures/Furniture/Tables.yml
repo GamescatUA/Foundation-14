@@ -1,0 +1,76 @@
+- type: entity
+  parent: BaseStructure
+  id: SCPOfficeDesk
+  name: office desk
+  description: A sturdy metallic office desk with drawers for paperwork and terminals.
+  components:
+  - type: Sprite
+    sprite: _F14/Structures/Furniture/Tables/office_desk_with_drawer.rsi
+    layers:
+    - state: base
+  - type: Icon
+    sprite: _F14/Structures/Furniture/Tables/office_desk_with_drawer.rsi
+    state: base
+  - type: Transform
+    noRot: false
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.95,-0.45,0.95,0.45"
+        density: 55
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+  - type: PlaceableSurface
+  - type: Climbable
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+
+- type: entity
+  parent: SCPOfficeDesk
+  id: SCPWoodenDesk
+  name: wooden desk
+  description: A heavy wooden desk with dark metal legs, suitable for offices and administrative rooms.
+  components:
+  - type: Sprite
+    sprite: _F14/Structures/Furniture/Tables/wooden_desk.rsi
+    state: desk
+  - type: Icon
+    sprite: _F14/Structures/Furniture/Tables/wooden_desk.rsi
+    state: desk
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Wood
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 80
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank1:
+            min: 2
+            max: 4

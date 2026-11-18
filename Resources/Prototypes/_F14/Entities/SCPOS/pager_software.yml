@@ -140,3 +140,19 @@
   diskCost: 5
   requiredAccess:
   - Admin1
+# UIU software
+- type: pagerSoftware
+  id: uiu_siphon_protocol
+  name: "UIU: Siphon-Link"
+  description: "Direct-bus exfiltration protocol. Requires physical proximity to a server node. Causes short power anomalies."
+  diskCost: 16
+  core: true
+  icon: "/Textures/_F14/Interface/Pager/Icons/briefcase.png"
+
+- type: pagerSoftware
+  id: uiu_uplink_relay
+  name: "UIU: Uplink-Relay"
+  description: "Encrypted data relay transmitting stolen intelligence to HQ task forces. Broadcasts extraction coordinates."
+  diskCost: 12
+  core: true
+  icon: "/Textures/_F14/Interface/Pager/Icons/briefcase.png"
